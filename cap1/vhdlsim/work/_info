@@ -1,0 +1,455 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms21.42/cap1/vhdlsim
+T_opt
+!s110 1616078615
+VcN0[SlXn=0NSPhfeBNX<W3
+04 8 0 work alu_test 1
+=1-5254009c17d7-60536717-52c3c-2f73
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+T_opt1
+!s110 1616077578
+VXTOAg>ob[3QHDEB9[R76<3
+04 6 0 work fdtest 1
+=1-5254009c17d7-6053630a-a6e27-7cf6
+R1
+R2
+n@_opt1
+R3
+R0
+Ealu
+Z4 w1616078529
+Z5 DPx4 work 8 alu_type 0 22 [QC6S9zP_j7m[Y>JCS1Kd1
+Z6 DPx4 work 9 constants 0 22 Q<8_i8HYzG9I@2W:V0Q7Q1
+Z7 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z10 8/home/ms21.42/cap1/vhdlsim/alu2.vhd
+Z11 F/home/ms21.42/cap1/vhdlsim/alu2.vhd
+l0
+L15
+V1AeL4[LLUTRcXm9=UoCgK2
+!s100 OQL^2[XMR`m]V8MR[a3WP0
+Z12 OL;C;10.7c;67
+32
+Z13 !s110 1616078603
+!i10b 1
+Z14 !s108 1616078602.000000
+Z15 !s90 -reportprogress|300|-work|work|/home/ms21.42/cap1/vhdlsim/alu2.vhd|
+Z16 !s107 /home/ms21.42/cap1/vhdlsim/alu2.vhd|
+!i113 0
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Abehavior_2
+R5
+R6
+R7
+R8
+R9
+Z19 DEx4 work 3 alu 0 22 1AeL4[LLUTRcXm9=UoCgK2
+l76
+L73
+VQo:O7aa823dQHGfXkiHQB1
+!s100 Cem6i@jikT5omN=dNG8>63
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Abehavior_1
+R5
+R6
+R7
+R8
+R9
+R19
+l24
+L22
+V_5W`NVi0T=nT6P[b4<YoG3
+!s100 l`a>QN1ceZ[7aYeaUSHT01
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Calu_test
+eTBALU
+Z20 aTEST
+R19
+DCx4 work 20 cfg_alu_behavioral_2 0 22 H4IaK03B3ZNYGf>flC`cn1
+DCx4 work 20 cfg_alu_behavioral_1 0 22 ZLd[cEh:fZhTjJeaS<JDR3
+DAx4 work 5 tbalu 4 test 22 :7UTOJePg5:JSQHABjT690
+R5
+R6
+R7
+R8
+R9
+Z21 DEx4 work 5 tbalu 0 22 ]f:3C<4KX:JQ[KBkQX7dI3
+Z22 w1615994568
+R0
+Z23 8/home/ms21.42/cap1/vhdlsim/tb_alu.vhd
+Z24 F/home/ms21.42/cap1/vhdlsim/tb_alu.vhd
+l0
+L60
+VQL?GdQ7D7koTX=0TPj1nz1
+!s100 kFkiM8W:WOzmmKIV:b9nJ2
+R12
+32
+Z25 !s110 1616078604
+!i10b 0
+Z26 !s108 1616078604.000000
+Z27 !s90 -reportprogress|300|-work|work|/home/ms21.42/cap1/vhdlsim/tb_alu.vhd|
+Z28 !s107 /home/ms21.42/cap1/vhdlsim/tb_alu.vhd|
+!i113 0
+R17
+R18
+Palu_type
+w1615899923
+R0
+8/home/ms21.42/cap1/vhdlsim/alu_type.vhd
+F/home/ms21.42/cap1/vhdlsim/alu_type.vhd
+l0
+L1
+V[QC6S9zP_j7m[Y>JCS1Kd1
+!s100 <^lDRB`=E@4HURz^bi@<V0
+R12
+32
+!s110 1616078602
+!i10b 1
+!s108 1616078601.000000
+!s90 -reportprogress|300|-work|work|/home/ms21.42/cap1/vhdlsim/alu_type.vhd|
+!s107 /home/ms21.42/cap1/vhdlsim/alu_type.vhd|
+!i113 0
+R17
+R18
+Ccfg_alu_behavioral_1
+eALU
+aBEHAVIOR_1
+DAx4 work 3 alu 10 behavior_1 22 _5W`NVi0T=nT6P[b4<YoG3
+R5
+R6
+R7
+R8
+R9
+R19
+R4
+R0
+R10
+R11
+l0
+L169
+VZLd[cEh:fZhTjJeaS<JDR3
+!s100 M76:_EjjKfJGU3JEFMTnA3
+R12
+32
+R13
+!i10b 0
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Ccfg_alu_behavioral_2
+eALU
+aBEHAVIOR_2
+DAx4 work 3 alu 10 behavior_2 22 Qo:O7aa823dQHGfXkiHQB1
+R5
+R6
+R7
+R8
+R9
+R19
+R4
+R0
+R10
+R11
+l0
+L174
+VH4IaK03B3ZNYGf>flC`cn1
+!s100 H^U3j?QkFSF9f=acazF`j2
+R12
+32
+R13
+!i10b 0
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Ccfg_fd_async
+Z29 eregFFD
+aASYNCHBEHAV
+DAx4 work 6 regffd 11 asynchbehav 22 bQOfh>zYIgJ:aQJg75j8o3
+R6
+Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R8
+R9
+Z31 DEx4 work 6 regffd 0 22 =G7M89LLD_VM`WTIj]DN81
+Z32 w1616003561
+R0
+Z33 8/home/ms21.42/cap1/vhdlsim/reg.vhd
+Z34 F/home/ms21.42/cap1/vhdlsim/reg.vhd
+l0
+L67
+VNbTaV]zc<jnn8NV]iz2;i0
+!s100 H:VNHNC7:N;[d36mThZeA3
+R12
+32
+Z35 !s110 1616077531
+!i10b 0
+Z36 !s108 1616077531.000000
+Z37 !s90 -reportprogress|300|-work|work|/home/ms21.42/cap1/vhdlsim/reg.vhd|
+Z38 !s107 /home/ms21.42/cap1/vhdlsim/reg.vhd|
+!i113 0
+R17
+R18
+Ccfg_fd_sync
+R29
+aSYNCBEHAV
+DAx4 work 6 regffd 9 syncbehav 22 Ki1<W51J`K>`[YfC0]QmT1
+R6
+R30
+R8
+R9
+R31
+R32
+R0
+R33
+R34
+l0
+L61
+V3^jHI[GdDVCgG`A1>[5mb2
+!s100 5UQz02AG```W3aOL5L:WS0
+R12
+32
+R35
+!i10b 0
+R36
+R37
+R38
+!i113 0
+R17
+R18
+Pconstants
+w1616061870
+R0
+8/home/ms21.42/cap1/vhdlsim/constants.vhd
+F/home/ms21.42/cap1/vhdlsim/constants.vhd
+l0
+L1
+VQ<8_i8HYzG9I@2W:V0Q7Q1
+!s100 G<DXh3YZ=GOS62_0IL]na1
+R12
+32
+!s110 1616078600
+!i10b 1
+!s108 1616078600.000000
+!s90 -reportprogress|300|-work|work|/home/ms21.42/cap1/vhdlsim/constants.vhd|
+!s107 /home/ms21.42/cap1/vhdlsim/constants.vhd|
+!i113 0
+R17
+R18
+Cfdtest
+eTBregFFD
+R20
+R31
+DCx4 work 12 cfg_fd_async 0 22 NbTaV]zc<jnn8NV]iz2;i0
+DCx4 work 11 cfg_fd_sync 0 22 3^jHI[GdDVCgG`A1>[5mb2
+DAx4 work 8 tbregffd 4 test 22 `ah<FL`AM[HIIXb_8MOW=3
+R6
+R30
+R8
+R9
+Z39 DEx4 work 8 tbregffd 0 22 :WWeWjO>oCA0c1GDMSeM=1
+Z40 w1616077483
+R0
+Z41 8/home/ms21.42/cap1/vhdlsim/tb_reg.vhd
+Z42 F/home/ms21.42/cap1/vhdlsim/tb_reg.vhd
+l0
+L61
+V9Jb[N7acJYk9@`hP=QEoF0
+!s100 N@nD_lZ3kPN9kdi3aazzC2
+R12
+32
+Z43 !s110 1616077533
+!i10b 0
+Z44 !s108 1616077533.000000
+Z45 !s90 -reportprogress|300|-work|work|/home/ms21.42/cap1/vhdlsim/tb_reg.vhd|
+Z46 !s107 /home/ms21.42/cap1/vhdlsim/tb_reg.vhd|
+!i113 0
+R17
+R18
+Eregffd
+R32
+R6
+R30
+R8
+R9
+R0
+R33
+R34
+l0
+L8
+V=G7M89LLD_VM`WTIj]DN81
+!s100 o]gR36YTWEz^ffPRg5O8G1
+R12
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R17
+R18
+Aasynchbehav
+R6
+R30
+R8
+R9
+R31
+l38
+L36
+VbQOfh>zYIgJ:aQJg75j8o3
+!s100 I[VP6b;hWOfEa0QSMW?`e1
+R12
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R17
+R18
+Asyncbehav
+R6
+R30
+R8
+R9
+R31
+l22
+L20
+VKi1<W51J`K>`[YfC0]QmT1
+!s100 oFio=l<loSaNHJIcZzk_D0
+R12
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R17
+R18
+Etbalu
+R22
+R5
+R6
+R7
+R8
+R9
+R0
+R23
+R24
+l0
+L9
+V]f:3C<4KX:JQ[KBkQX7dI3
+!s100 _3ImGb]0<j9zD4jPTk1Y93
+R12
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R17
+R18
+Atest
+R5
+R6
+R7
+R8
+R9
+R21
+l27
+L12
+V:7UTOJePg5:JSQHABjT690
+!s100 I<FP8`;FSI7M?i6QnkF:E1
+R12
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R17
+R18
+Etbregffd
+R40
+R6
+R30
+R8
+R9
+R0
+R41
+R42
+l0
+L7
+V:WWeWjO>oCA0c1GDMSeM=1
+!s100 =0BUdiL495Z4Pcb2?d:nN2
+R12
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 0
+R17
+R18
+Atest
+R6
+R30
+R8
+R9
+R39
+l29
+L10
+V`ah<FL`AM[HIIXb_8MOW=3
+!s100 `h[dEc=<i90bIS4mK3L8<1
+R12
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 0
+R17
+R18

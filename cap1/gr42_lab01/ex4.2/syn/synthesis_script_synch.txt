@@ -1,0 +1,6 @@
+gui_start
+analyze -library WORK -format vhdl {/home/ms21.42/cap1/syn/reg.vhd /home/ms21.42/cap1/syn/constants.vhd}
+elaborate REGFFD -architecture SYNCBEHAV -library WORK -parameters "NBIT = 64"
+compile -exact_map
+write -hierarchy -format vhdl -output /home/ms21.42/cap1/syn/reg_synch.vhdl
+write -hierarchy -format ddc -output /home/ms21.42/cap1/syn/reg_synch_design.ddc

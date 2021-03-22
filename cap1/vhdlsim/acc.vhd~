@@ -1,0 +1,109 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use work.constants.all;
+
+entity ACC is
+	GENERIC (NBIT: integer :=numBit);
+	port (
+      A          : in  std_logic_vector(NBIT - 1 downto 0);
+      B          : in  std_logic_vector(NBIT - 1 downto 0);
+      CLK        : in  std_logic;
+      RST_n      : in  std_logic;
+      ACCUMULATE : in  std_logic;
+      ACC_EN_n   : in  std_logic;  -- optional use of the enable
+      Y          : out std_logic_vector(NBIT - 1 downto 0));
+  end ACC;
+  
+architecture arch of ACC is
+	
+	component mux21_generic
+	GENERIC (NBIT: integer :=numBit;
+	       	DELAY_MUX: Time:= tp_mux);
+	PORT (a:	in std_logic_vector(NBIT-1 downto 0);	
+			b:in  std_logic_vector(NBIT-1 downto 0);
+			sel:	In	std_logic;
+			y:out std_logic_vector(NBIT-1 downto 0));
+	END COMPONENT;
+	
+	
+	component rca
+	GENERIC (NBIT: integer :=numBit);
+	Port (	A:	In	std_logic_vector(NBIT-1 downto 0);
+			B:	In	std_logic_vector(NBIT-1 downto 0);
+			Ci:	In	std_logic;
+			S:	Out	std_logic_vector(NBIT-1 downto 0);
+			Co:	Out	std_logic);
+	END COMPONENT;
+	
+	component fd
+	Port (	D:	In	std_logic;
+			CK:	In	std_logic;
+			RESET:	In	std_logic;
+			Q:	Out	std_logic);
+	END COMPONENT;
+	
+	signal 	buf: std_logic_vector(NBIT-1 downto 0);
+	signal  y1:std_logic_vector(NBIT-1 downto 0);
+	signal	s:std_logic_vector(NBIT-1 downto 0);
+	signal  cin:std_logic;
+	signal  c0:std_logic;
+        --begin
+	--t:process
+        begin
+                cin<='0';
+		mux: mux21_generic  port map(buf, B, accumulate, y1);
+		rca1: rca port map (A,y1,cin, s,c0);
+		
+	--	if acc_en_n='0' then
+		   gen: FOR I IN 0 TO NBIT-1 GENERATE
+			 gen1:fd PORT MAP (s(i),CLK,RST_n,buf(i));
+                          y(i)<=buf(i);
+		   end generate;
+	--	end if;
+        --end process;
+end arch;
+
+architecture behave of ACC is
+	signal t:std_logic_vector(NBIT-1 downto 0);
+        signal v:std_logic_vector(NBIT-1 downto 0) := (others =>'0');
+        begin
+	PSYNCH: process(CLK,rst_n,acc_en_n)
+	begin
+          
+		if ACC_EN_n='0' and CLK'event and CLK='1' then
+			if rst_n='1'then
+				Y<=v;
+			else
+				if accumulate='1' then
+					T<=A+t;
+				else 
+					T<=A+B;
+				end if;
+                                Y<=t;
+			end if;
+                        
+		end if;
+	end process;
+end behave;
+
+configuration CFG_acc_behave of acc is
+	for behave
+	end for;
+end CFG_acc_behave;
+
+configuration CFG_acc_STRUCTURAL of acc is
+	for arch
+		for all : mux21_generic
+			use configuration WORK.CFG_MUX21_GEN_STRUCTURAL;
+		end for;
+		for all : rca
+			use configuration WORK.CFG_RCA_BEHAVIORAL;
+		end for;
+		for gen
+      		for all : fd
+		        use configuration work.CFG_FD_PIPPO;
+      		end for;
+		end for;
+	end for;
+end CFG_acc_STRUCTURAL;

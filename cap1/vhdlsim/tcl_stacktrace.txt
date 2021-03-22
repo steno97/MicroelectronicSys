@@ -1,0 +1,14 @@
+Mon Mar 15 20:54:42 CET 2021
+Trace back: bad option "scan": must be annotate, bbox, cget, compare, configure, count, decreaseindent, delete, dump, edit, fold, get, index, increaseindent, insert, keywords, loadlexer, margin, mark, marker, property, scisearch, search, see, ssm, style, tag, textwidth, version, xview, yview, zoom, zoomin, or zoomout
+    while executing
+"$w scan dragto $x $y"
+    (procedure "::scintilla::TextScanDrag" line 15)
+    invoked from within
+"::scintilla::TextScanDrag .main_pane.source.interior.cs.body.srcobj.sci 736 431"
+    invoked from within
+"if {!$tk_strictMotif} {
+        ::scintilla::TextScanDrag .main_pane.source.interior.cs.body.srcobj.sci 736 431
+    }"
+    (command bound to event)
+  <2:/software/mentor/questa10.7c/questasim/linux_x86_64/tk8.6/bgerror.tcl:106: ::tkerror {bad option "scan": must be annotate, bbox, cget, compare, configure, count, decreaseindent, delete, dump, edit, fold, get, index, increaseindent, insert, keywords, loadlexer, margin, mark, marker, property, scisearch, search, see, ssm, style, tag, textwidth, version, xview, yview, zoom, zoomin, or zoomout}
+  <1:eval:1: ::tk::dialog::error::bgerror {bad option "scan": must be annotate, bbox, cget, compare, configure, count, decreaseindent, delete, dump, edit, fold, get, index, increaseindent, insert, keywords, loadlexer, margin, mark, marker, property, scisearch, search, see, ssm, style, tag, textwidth, version, xview, yview, zoom, zoomin, or zoomout}

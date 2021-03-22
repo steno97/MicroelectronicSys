@@ -1,0 +1,506 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms21.42/setup/vhdlsim
+T_opt
+!s110 1614843459
+VNkX>:Zm@7Cg_i?2AlXWVS3
+04 9 0 work mux21test 1
+=1-5254009c17d7-60408e43-76697-5a29
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1614966030
+Ve1SBdc4>4_HB3QX?hYbmi2
+04 7 4 work tbmux21 test 1
+=1-5254009c17d7-60426d0e-4d6df-4e3d
+R1
+R2
+n@_opt1
+R3
+R0
+Ccfg_iv_behavioral
+eIV
+aBEHAVIORAL
+DAx4 work 2 iv 10 behavioral 22 U==`a]e1Y@z;DJ9X]2EJa3
+Z4 DPx4 work 9 constants 0 22 SAgEnVoeI9ezSN^U8[=9<1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DEx4 work 2 iv 0 22 FR2B_<Uk[71CTf>fRk_AC1
+Z8 w1614799022
+R0
+Z9 8/home/ms21.42/setup/vhdlsim/iv.vhd
+Z10 F/home/ms21.42/setup/vhdlsim/iv.vhd
+l0
+L19
+VkM[Yl:RSZNHEb0<5KSaB:3
+!s100 J^D:lcUfc_6VD4AD?iJiU2
+Z11 OL;C;10.7c;67
+32
+Z12 !s110 1615233450
+!i10b 0
+Z13 !s108 1615233450.000000
+Z14 !s90 -reportprogress|300|-work|work|/home/ms21.42/setup/vhdlsim/iv.vhd|
+Z15 !s107 /home/ms21.42/setup/vhdlsim/iv.vhd|
+!i113 0
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Ccfg_mux21_behavioral_1
+Z18 eMUX21
+aBEHAVIORAL_1
+DAx4 work 5 mux21 12 behavioral_1 22 ;d9W95bYVCX>MMVSXfVzV3
+R4
+R5
+R6
+Z19 DEx4 work 5 mux21 0 22 UoP4Lg73WaZ_[mU_X_cJ;2
+R8
+R0
+Z20 8/home/ms21.42/setup/vhdlsim/mux21.vhd
+Z21 F/home/ms21.42/setup/vhdlsim/mux21.vhd
+l0
+L83
+VlfVUR^?8^F<U][E_[aU>L3
+!s100 N<SV[43h4J[4SVS[2=kYF2
+R11
+32
+Z22 !s110 1615233453
+!i10b 0
+Z23 !s108 1615233453.000000
+Z24 !s90 -reportprogress|300|-work|work|/home/ms21.42/setup/vhdlsim/mux21.vhd|
+Z25 !s107 /home/ms21.42/setup/vhdlsim/mux21.vhd|
+!i113 0
+R16
+R17
+Ccfg_mux21_behavioral_2
+R18
+aBEHAVIORAL_2
+DAx4 work 5 mux21 12 behavioral_2 22 ZIL@<1ennI>5H3FieaPl03
+R4
+R5
+R6
+R19
+R8
+R0
+R20
+R21
+l0
+L88
+V9^l9z@l^SR9BC=djhgLo=2
+!s100 YbFM7Ko]Mh=[0;4zYlm1[3
+R11
+32
+R22
+!i10b 0
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Ccfg_mux21_behavioral_3
+R18
+aBEHAVIORAL_3
+DAx4 work 5 mux21 12 behavioral_3 22 E;iQdb2NzN^:I^gl^?1OU0
+R4
+R5
+R6
+R19
+R8
+R0
+R20
+R21
+l0
+L93
+VSI=AT<UNzo=lOEo2GOM830
+!s100 X=8]aSPcdB`V_ZX1PGn>l2
+R11
+32
+R22
+!i10b 0
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Ccfg_mux21_structural
+R18
+aSTRUCTURAL
+Z26 DEx4 work 3 nd2 0 22 eehlAoX<m>:coij@zKm3F2
+R7
+DCx4 work 13 cfg_nd2_arch2 0 22 bS41WgbPZooDG5c<N=D^Z1
+DCx4 work 17 cfg_iv_behavioral 0 22 kM[Yl:RSZNHEb0<5KSaB:3
+DAx4 work 5 mux21 10 structural 22 5Y5zW=RH==Wc8GTf5?Jk42
+R4
+R5
+R6
+R19
+R8
+R0
+R20
+R21
+l0
+L98
+VJ>9PV_9BkO_bWSH7HP5k<2
+!s100 Ka:iYN0MgV9mVY2=5T_gj0
+R11
+32
+R22
+!i10b 0
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Ccfg_nd2_arch1
+eND2
+aARCH1
+DAx4 work 3 nd2 5 arch1 22 Kl>?fEB65iYJi^E@K5jbW1
+R4
+R5
+R6
+R26
+R8
+R0
+Z27 8/home/ms21.42/setup/vhdlsim/nd2.vhd
+Z28 F/home/ms21.42/setup/vhdlsim/nd2.vhd
+l0
+L37
+VUf_?P37Sl?PLLB>nQMaRG1
+!s100 E@8<=L1e;1WRQ?F]TON?43
+R11
+32
+Z29 !s110 1615233452
+!i10b 0
+Z30 !s108 1615233452.000000
+Z31 !s90 -reportprogress|300|-work|work|/home/ms21.42/setup/vhdlsim/nd2.vhd|
+Z32 !s107 /home/ms21.42/setup/vhdlsim/nd2.vhd|
+!i113 0
+R16
+R17
+Ccfg_nd2_arch2
+eND2
+aARCH2
+DAx4 work 3 nd2 5 arch2 22 505@dKNe4Z<AUnGePGCm52
+R4
+R5
+R6
+R26
+R8
+R0
+R27
+R28
+l0
+L42
+VbS41WgbPZooDG5c<N=D^Z1
+!s100 dQYng`K0YXdSKRjaAazG[0
+R11
+32
+R29
+!i10b 0
+R30
+R31
+R32
+!i113 0
+R16
+R17
+Pconstants
+R8
+R0
+8/home/ms21.42/setup/vhdlsim/constants.vhd
+F/home/ms21.42/setup/vhdlsim/constants.vhd
+l0
+L1
+VSAgEnVoeI9ezSN^U8[=9<1
+!s100 G4FVCAlR1g1UEEDdKKI:K1
+R11
+32
+!s110 1615233447
+!i10b 1
+!s108 1615233447.000000
+!s90 -reportprogress|300|-work|work|/home/ms21.42/setup/vhdlsim/constants.vhd|
+!s107 /home/ms21.42/setup/vhdlsim/constants.vhd|
+!i113 0
+R16
+R17
+Eiv
+R8
+R4
+R5
+R6
+R0
+R9
+R10
+l0
+L5
+VFR2B_<Uk[71CTf>fRk_AC1
+!s100 :4ZhGh>WK`=ahW`RW=?IW2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Abehavioral
+R4
+R5
+R6
+R7
+l13
+L11
+VU==`a]e1Y@z;DJ9X]2EJa3
+!s100 ZO7X<i_:10Coc1RH[ZOf;0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Emux21
+R8
+R4
+R5
+R6
+R0
+R20
+R21
+l0
+L5
+VUoP4Lg73WaZ_[mU_X_cJ;2
+!s100 8[7C]XjR_lILJSXIUl9e11
+R11
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Astructural
+R4
+R5
+R6
+R19
+l65
+L46
+Z33 V5Y5zW=RH==Wc8GTf5?Jk42
+Z34 !s100 2W<io5nl3hB;lNj_i8I9e0
+R11
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Abehavioral_3
+R4
+R5
+R6
+R19
+l31
+L29
+Z35 VE;iQdb2NzN^:I^gl^?1OU0
+Z36 !s100 H`fomV559ELnDKzgmX`0:1
+R11
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Abehavioral_2
+R4
+R5
+R6
+R19
+l23
+L21
+Z37 VZIL@<1ennI>5H3FieaPl03
+Z38 !s100 >12;bKH`aAKmECeOFBXJ]1
+R11
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Abehavioral_1
+R4
+R5
+R6
+R19
+l15
+L13
+Z39 V;d9W95bYVCX>MMVSXfVzV3
+Z40 !s100 ghVEL:7]j]:CiG[ai`UZn3
+R11
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Cmux21test
+eTBMUX21
+aTEST
+R19
+DCx4 work 20 cfg_mux21_structural 0 22 J>9PV_9BkO_bWSH7HP5k<2
+DCx4 work 22 cfg_mux21_behavioral_3 0 22 SI=AT<UNzo=lOEo2GOM830
+DCx4 work 22 cfg_mux21_behavioral_2 0 22 9^l9z@l^SR9BC=djhgLo=2
+DCx4 work 22 cfg_mux21_behavioral_1 0 22 lfVUR^?8^F<U][E_[aU>L3
+DAx4 work 7 tbmux21 4 test 22 2AfOQdKVbml5g3=?iQ5o=3
+R4
+R5
+R6
+Z41 DEx4 work 7 tbmux21 0 22 KB]Ozo19ibm84iA[z3ehO3
+R8
+R0
+Z42 8/home/ms21.42/setup/vhdlsim/tb_mux21.vhd
+Z43 F/home/ms21.42/setup/vhdlsim/tb_mux21.vhd
+l0
+L70
+Ve>FoWHX><J9MkW5oYhcTE3
+!s100 kehN60aU=Mc<^e_la0<<_0
+R11
+32
+Z44 !s110 1614844317
+!i10b 0
+Z45 !s108 1614844317.000000
+Z46 !s90 -reportprogress|300|-work|work|/home/ms21.42/setup/vhdlsim/tb_mux21.vhd|
+Z47 !s107 /home/ms21.42/setup/vhdlsim/tb_mux21.vhd|
+!i113 0
+R16
+R17
+End2
+R8
+R4
+R5
+R6
+R0
+R27
+R28
+l0
+L5
+VeehlAoX<m>:coij@zKm3F2
+!s100 TQh=7hQBTkmX^]dgN6Beh3
+R11
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R16
+R17
+Aarch2
+R4
+R5
+R6
+R26
+l21
+L19
+V505@dKNe4Z<AUnGePGCm52
+!s100 TfHJCgdLJ<WaXLm6H@GTa1
+R11
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R16
+R17
+Aarch1
+R4
+R5
+R6
+R26
+l14
+L12
+VKl>?fEB65iYJi^E@K5jbW1
+!s100 h`5=2;:RP@9nJLI^JhjlI2
+R11
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R16
+R17
+Etbmux21
+R8
+R4
+R5
+R6
+R0
+R42
+R43
+l0
+L6
+VKB]Ozo19ibm84iA[z3ehO3
+!s100 0R5`IS>?>e:H9`l>1^QfN2
+R11
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 0
+R16
+R17
+Atest
+R4
+R5
+R6
+R41
+l36
+L9
+V2AfOQdKVbml5g3=?iQ5o=3
+!s100 8j5WLlk[]e?Ub4J;O8f[]1
+R11
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 0
+R16
+R17
