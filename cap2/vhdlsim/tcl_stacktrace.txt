@@ -1,0 +1,53 @@
+Thu Mar 25 11:49:45 CET 2021
+Trace back: invalid command name ""
+    while executing
+"::SourceEdit::HandleDrivers [lindex $sigList 0] $d_or_r"
+    (procedure "_showDFReadersDrivers" line 41)
+    invoked from within
+"_showDFReadersDrivers drivers .main_pane.wave.interior.cs.body.pw.wf 1"
+    ("eval" body line 1)
+    invoked from within
+"eval _showDFReadersDrivers "drivers" $winname $classic $args"
+    (procedure "Wave::ShowDFDrivers" line 2)
+    invoked from within
+"Wave::ShowDFDrivers $top 1"
+    (procedure "Wave::1Up" line 27)
+    invoked from within
+"Wave::1Up $widget $x $y"
+    (procedure "Wave::SelectUp" line 4)
+    invoked from within
+"Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 219 162 502 428 "
+    (command bound to event)
+  <2:/software/mentor/questa10.7c/questasim/linux_x86_64/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name ""}
+  <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ""}
+Thu Mar 25 11:56:51 CET 2021
+Trace back: bad window path name ""
+    while executing
+"winfo parent $child"
+    (object "::.windowmgr" method "::mtiwidgets::WindowMgr::IsChildOf" body line 3)
+    invoked from within
+"$::vsimPriv(windowmgr) IsChildOf [$wo GetData wave] [focus]"
+    (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::ActivePane" body line 9)
+    invoked from within
+"ActivePane"
+    (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::Activate" body line 21)
+    invoked from within
+".main_pane.dataflow.interior.cs.body.pw.df.c Activate .main_pane.dataflow"
+    (in namespace inscope "::" script line 1)
+    invoked from within
+"namespace inscope :: {.main_pane.dataflow.interior.cs.body.pw.df.c Activate} .main_pane.dataflow"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-activatecommand) $frame_name"
+    (object "::.main_pane.dataflow" method "::mtiwidgets::WindowObj::Activate" body line 16)
+    invoked from within
+"$windowobj Activate """
+    (object "::.vcop" method "::vsimwidgets::Vcop::ActualActivate" body line 36)
+    invoked from within
+"::.vcop ActualActivate"
+    (in namespace inscope "::vsimwidgets::Vcop" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Vcop {::.vcop ActualActivate}"
+    ("after" script)
+  <2:/software/mentor/questa10.7c/questasim/linux_x86_64/tk8.6/bgerror.tcl:106: ::tkerror {bad window path name ""}
+  <1:proc:24: ::tk::dialog::error::bgerror {bad window path name ""}

@@ -1,0 +1,347 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/constants.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:11:37 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 23:11:37 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/nd2.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:11:41 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/nd2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity ND2
+# -- Compiling architecture ARCH1 of ND2
+# -- Compiling architecture ARCH2 of ND2
+# -- Loading entity ND2
+# -- Compiling configuration CFG_ND2_ARCH1
+# -- Loading entity ND2
+# -- Loading architecture ARCH1 of ND2
+# -- Compiling configuration CFG_ND2_ARCH2
+# -- Loading entity ND2
+# -- Loading architecture ARCH2 of ND2
+# End time: 23:11:41 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/iv.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:11:44 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/iv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity IV
+# -- Compiling architecture BEHAVIORAL of IV
+# -- Compiling configuration CFG_IV_BEHAVIORAL
+# -- Loading entity IV
+# -- Loading architecture BEHAVIORAL of IV
+# End time: 23:11:44 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/lfsr.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:11:46 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/lfsr.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity LFSR16
+# -- Compiling architecture RTL of LFSR16
+# End time: 23:11:46 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/mux21.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:11:47 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21
+# -- Compiling architecture BEHAVIORAL_1 of MUX21
+# -- Compiling architecture BEHAVIORAL_2 of MUX21
+# -- Loading entity MUX21
+# -- Compiling architecture BEHAVIORAL_3 of MUX21
+# -- Loading entity MUX21
+# -- Compiling architecture STRUCTURAL of MUX21
+# -- Loading entity MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_1
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_1 of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_2
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_2 of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_3
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_3 of MUX21
+# -- Compiling configuration CFG_MUX21_STRUCTURAL
+# -- Loading entity MUX21
+# -- Loading architecture STRUCTURAL of MUX21
+# -- Loading entity IV
+# -- Loading entity ND2
+# -- Loading configuration cfg_iv_behavioral
+# -- Loading configuration cfg_nd2_arch2
+# End time: 23:11:47 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/mux21_generic.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:11:48 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIOR of MUX21_GENERIC
+# -- Compiling architecture struct of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
+# -- Loading entity MUX21_GENERIC
+# -- Loading architecture BEHAVIOR of MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_STRUCTURAL
+# -- Loading entity MUX21_GENERIC
+# -- Loading architecture struct of MUX21_GENERIC
+# -- Loading entity MUX21
+# -- Loading configuration cfg_mux21_behavioral_2
+# End time: 23:11:48 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/fa.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:11:51 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/fa.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA
+# -- Compiling architecture BEHAVIORAL of FA
+# -- Compiling configuration CFG_FA_BEHAVIORAL
+# -- Loading entity FA
+# -- Loading architecture BEHAVIORAL of FA
+# End time: 23:11:51 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/rca.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:11:52 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/rca.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity RCA
+# -- Compiling architecture STRUCTURAL of RCA
+# -- Compiling architecture BEHAVIORAL of RCA
+# -- Loading entity RCA
+# -- Compiling configuration CFG_RCA_STRUCTURAL
+# -- Loading entity RCA
+# -- Loading architecture STRUCTURAL of RCA
+# -- Loading entity FA
+# -- Loading configuration cfg_fa_behavioral
+# -- Compiling configuration CFG_RCA_BEHAVIORAL
+# -- Loading entity RCA
+# -- Loading architecture BEHAVIORAL of RCA
+# End time: 23:11:53 on Apr 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/csb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:11:56 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/csb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity CSB
+# -- Compiling architecture STRUCTURAL of CSB
+# -- Compiling configuration CFG_CSB_STRUCTURAL
+# -- Loading entity CSB
+# -- Loading architecture STRUCTURAL of CSB
+# -- Loading entity RCA
+# -- Loading entity MUX21_GENERIC
+# -- Loading configuration cfg_mux21_gen_structural
+# -- Loading configuration cfg_rca_structural
+# End time: 23:11:56 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/sum_gen.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:12:02 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/sum_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity SUM_GENERATOR
+# -- Compiling architecture STRUCTURAL of SUM_GENERATOR
+# -- Compiling configuration CFG_SUM_GENERATOR_STRUCTURAL
+# -- Loading entity SUM_GENERATOR
+# -- Loading architecture STRUCTURAL of SUM_GENERATOR
+# -- Loading entity CSB
+# -- Loading configuration cfg_csb_structural
+# End time: 23:12:02 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/tb_csb.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:12:04 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/tb_csb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package CONSTANTS
+# -- Compiling entity TBCSB
+# -- Compiling architecture TEST of TBCSB
+# -- Compiling configuration CSBTEST
+# -- Loading entity TBCSB
+# -- Loading architecture TEST of TBCSB
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity CSB
+# -- Loading entity LFSR16
+# -- Loading configuration cfg_csb_structural
+# End time: 23:12:04 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.csbtest
+# vsim work.csbtest 
+# Start time: 23:12:23 on Apr 06,2021
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.constants
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.csbtest#1
+# Loading work.tbcsb(test)#1
+# Loading work.cfg_csb_structural#1
+# Loading work.csb(structural)#1
+# Loading work.cfg_rca_structural#1
+# Loading work.rca(structural)#1
+# Loading work.cfg_fa_behavioral#1
+# Loading work.fa(behavioral)#1
+# Loading work.cfg_mux21_gen_structural#1
+# Loading work.mux21_generic(struct)#1
+# Loading work.cfg_mux21_behavioral_2#1
+# Loading work.mux21(behavioral_2)#1
+# Loading work.lfsr16(rtl)#1
+add wave *
+run 20 na
+# Invalid time value: 20 na
+run 20 ns
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   1164Event process: /tbcsb/line__62 @ sub-iteration 0 to value 3
+#     Source: /home/ms21.42/cap2/vhdlsim/sum_generator/tb_csb.vhd:62
+#   1164Event process: /tbcsb/line__62 @ sub-iteration 1 to value 2
+#     Source: /home/ms21.42/cap2/vhdlsim/sum_generator/tb_csb.vhd:62
+#   1164Event process: /tbcsb/line__62 @ sub-iteration 2 to value 3
+#     Source: /home/ms21.42/cap2/vhdlsim/sum_generator/tb_csb.vhd:62
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 0 ns.
+run 10 ns
+quit -sim
+# End time: 23:14:18 on Apr 06,2021, Elapsed time: 0:01:55
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/sum_gen.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:15:21 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/sum_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity SUM_GENERATOR
+# -- Compiling architecture STRUCTURAL of SUM_GENERATOR
+# -- Compiling configuration CFG_SUM_GENERATOR_STRUCTURAL
+# -- Loading entity SUM_GENERATOR
+# -- Loading architecture STRUCTURAL of SUM_GENERATOR
+# -- Loading entity CSB
+# -- Loading configuration cfg_csb_structural
+# End time: 23:15:21 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/tb_sum_generator.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 23:15:24 on Apr 06,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/sum_generator/tb_sum_generator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity TBSUM_GENERATOR
+# -- Compiling architecture TEST of TBSUM_GENERATOR
+# -- Compiling configuration SUM_GENERATORTEST
+# -- Loading entity TBSUM_GENERATOR
+# -- Loading architecture TEST of TBSUM_GENERATOR
+# -- Loading entity SUM_GENERATOR
+# -- Loading entity LFSR16
+# -- Loading configuration cfg_sum_generator_structural
+# End time: 23:15:24 on Apr 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.sum_generatortest
+# vsim work.sum_generatortest 
+# Start time: 23:15:56 on Apr 06,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.constants
+# Loading work.sum_generatortest#1
+# Loading work.tbsum_generator(test)#1
+# Loading work.cfg_sum_generator_structural#1
+# Loading work.sum_generator(structural)#1
+# Loading work.cfg_csb_structural#1
+# Loading work.csb(structural)#1
+# Loading work.cfg_rca_structural#1
+# Loading work.rca(structural)#1
+# Loading work.cfg_fa_behavioral#1
+# Loading work.fa(behavioral)#1
+# Loading work.cfg_mux21_gen_structural#1
+# Loading work.mux21_generic(struct)#1
+# Loading work.cfg_mux21_behavioral_2#1
+# Loading work.mux21(behavioral_2)#1
+# Loading work.lfsr16(rtl)#1
+add wave *
+run 10 ns
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 0 ns ###############
+#   1164Event process: /tbsum_generator/line__56 @ sub-iteration 0 to value 3
+#     Source: /home/ms21.42/cap2/vhdlsim/sum_generator/tb_sum_generator.vhd:56
+#   1164Event process: /tbsum_generator/line__56 @ sub-iteration 1 to value 2
+#     Source: /home/ms21.42/cap2/vhdlsim/sum_generator/tb_sum_generator.vhd:56
+#   1164Event process: /tbsum_generator/line__56 @ sub-iteration 2 to value 3
+#     Source: /home/ms21.42/cap2/vhdlsim/sum_generator/tb_sum_generator.vhd:56
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 0 ns.
+run 10 ns
+# End time: 23:17:33 on Apr 06,2021, Elapsed time: 0:01:37
+# Errors: 1, Warnings: 0

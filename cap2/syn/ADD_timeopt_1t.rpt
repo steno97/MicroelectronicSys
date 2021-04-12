@@ -1,0 +1,88 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : P4_ADDER
+Version: F-2011.09-SP3
+Date   : Tue Apr  6 16:03:32 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[0] (input port)
+  Endpoint: S[11] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  carry_logic/A[0] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)
+                                                          0.00       0.00 f
+  carry_logic/U33/Z (XOR2_X1)                             0.08       0.08 f
+  carry_logic/g_port0_0_1/P (G_0)                         0.00       0.08 f
+  carry_logic/g_port0_0_1/U2/ZN (AOI21_X1)                0.04       0.12 r
+  carry_logic/g_port0_0_1/U1/ZN (INV_X1)                  0.03       0.15 f
+  carry_logic/g_port0_0_1/Co (G_0)                        0.00       0.15 f
+  carry_logic/g_port1_1_2/G2 (G_108)                      0.00       0.15 f
+  carry_logic/g_port1_1_2/U2/ZN (AOI21_X1)                0.05       0.19 r
+  carry_logic/g_port1_1_2/U1/ZN (INV_X1)                  0.03       0.23 f
+  carry_logic/g_port1_1_2/Co (G_108)                      0.00       0.23 f
+  carry_logic/g_port1_2_4/G2 (G_107)                      0.00       0.23 f
+  carry_logic/g_port1_2_4/U2/ZN (AOI21_X1)                0.05       0.27 r
+  carry_logic/g_port1_2_4/U1/ZN (INV_X1)                  0.03       0.30 f
+  carry_logic/g_port1_2_4/Co (G_107)                      0.00       0.30 f
+  carry_logic/g_port1_3_8/G2 (G_106)                      0.00       0.30 f
+  carry_logic/g_port1_3_8/U2/ZN (AOI21_X1)                0.05       0.35 r
+  carry_logic/g_port1_3_8/U1/ZN (INV_X1)                  0.03       0.38 f
+  carry_logic/g_port1_3_8/Co (G_106)                      0.00       0.38 f
+  carry_logic/pg_port2_0_1_2/G1 (PG_10)                   0.00       0.38 f
+  carry_logic/pg_port2_0_1_2/g_comp/G1 (G_10)             0.00       0.38 f
+  carry_logic/pg_port2_0_1_2/g_comp/U2/ZN (AOI21_X1)      0.05       0.43 r
+  carry_logic/pg_port2_0_1_2/g_comp/U1/ZN (INV_X1)        0.02       0.45 f
+  carry_logic/pg_port2_0_1_2/g_comp/Co (G_10)             0.00       0.45 f
+  carry_logic/pg_port2_0_1_2/gout (PG_10)                 0.00       0.45 f
+  carry_logic/g_port_1_2/G1 (G_104)                       0.00       0.45 f
+  carry_logic/g_port_1_2/U2/ZN (AOI21_X1)                 0.05       0.50 r
+  carry_logic/g_port_1_2/U1/ZN (INV_X1)                   0.04       0.54 f
+  carry_logic/g_port_1_2/Co (G_104)                       0.00       0.54 f
+  carry_logic/Co[1] (CARRY_GENERATOR_NBIT32_NBIT_PER_BLOCK4)
+                                                          0.00       0.54 f
+  sum_logic/Ci[2] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBIT32)
+                                                          0.00       0.54 f
+  sum_logic/CSBI_2/Ci (CSB_NBIT4_6)                       0.00       0.54 f
+  sum_logic/CSBI_2/MUXCin/SEL (MUX21_GENERIC_NBIT4_6)     0.00       0.54 f
+  sum_logic/CSBI_2/MUXCin/gen1_3/S (MUX21_21)             0.00       0.54 f
+  sum_logic/CSBI_2/MUXCin/gen1_3/UIV/A (IV_21)            0.00       0.54 f
+  sum_logic/CSBI_2/MUXCin/gen1_3/UIV/U1/ZN (INV_X1)       0.04       0.58 r
+  sum_logic/CSBI_2/MUXCin/gen1_3/UIV/Y (IV_21)            0.00       0.58 r
+  sum_logic/CSBI_2/MUXCin/gen1_3/UND2/B (ND2_62)          0.00       0.58 r
+  sum_logic/CSBI_2/MUXCin/gen1_3/UND2/U1/ZN (NAND2_X1)
+                                                          0.03       0.61 f
+  sum_logic/CSBI_2/MUXCin/gen1_3/UND2/Y (ND2_62)          0.00       0.61 f
+  sum_logic/CSBI_2/MUXCin/gen1_3/UND3/B (ND2_61)          0.00       0.61 f
+  sum_logic/CSBI_2/MUXCin/gen1_3/UND3/U1/ZN (NAND2_X1)
+                                                          0.02       0.63 r
+  sum_logic/CSBI_2/MUXCin/gen1_3/UND3/Y (ND2_61)          0.00       0.63 r
+  sum_logic/CSBI_2/MUXCin/gen1_3/Y (MUX21_21)             0.00       0.63 r
+  sum_logic/CSBI_2/MUXCin/Y[3] (MUX21_GENERIC_NBIT4_6)
+                                                          0.00       0.63 r
+  sum_logic/CSBI_2/S[3] (CSB_NBIT4_6)                     0.00       0.63 r
+  sum_logic/S[11] (SUM_GENERATOR_NBIT_PER_BLOCK4_NBIT32)
+                                                          0.00       0.63 r
+  S[11] (out)                                             0.00       0.63 r
+  data arrival time                                                  0.63
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

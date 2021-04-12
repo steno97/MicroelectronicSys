@@ -1,0 +1,39 @@
+##############################################################
+#SCRIPT FOR SPEEDING UP and RECORDING the MULTIPLIER SYNTHESIS#
+# analyzing and checking vhdl netlist#
+# here the analyze command is used for each file from bottom to top #
+##############################################################
+
+analyze -library WORK -format vhdl {constants.vhd}
+analyze -library WORK -format vhdl {fa.vhd}
+# fill these lines with your files ...
+analyze -library WORK -format vhdl {my_data_types.vhd}
+analyze -library WORK -format vhdl {rca.vhd}
+analyze -library WORK -format vhdl {shifter.vhd}
+analyze -library WORK -format vhdl {Mux_generic.vhd}
+analyze -library WORK -format vhdl {Booth_Encoder.vhd}
+analyze -library WORK -format vhdl {BOOTHMUL.vhd}
+##############################################################
+# elaborating the top entity -- here supposed boothmul#
+# choose the architecture you want
+elaborate BOOTHMUL -library WORK
+##########################################
+# first compilation, without constraints #
+compile -exact_map
+# reporting timing and power after the first synthesis without constraints #
+report_timing > mul-timing-no-opt.txt
+report_area > mul.area.no.opt.txt
+# forces a combinational max delay of REQUIRED_TIME from each of the inputs
+# to each of th eoutput, that is a delay lower than the one found after
+# the first compilation step #
+# often this is the working clock period of your system #
+set_max_delay 6.6 -from [all_inputs] -to [all_outputs]
+# optimize
+compile -map_effort high
+# save report
+report_timing > mul-timing-opt.txt
+report_area > mul-area-opt.txt
+# saving files
+write -hierarchy -format vhdl -output Booth_Mul_opt.vhdl
+
+

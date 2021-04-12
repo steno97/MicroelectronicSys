@@ -1,0 +1,1 @@
+My implementation of the carry generator is limited in the generic aspect, in fact it can menaged a number of bit that is a power of two and a block with a number of bit that is submultiple of the tota number of bits.

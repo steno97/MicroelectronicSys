@@ -1,0 +1,173 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/p4_adder.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:04:36 on Mar 31,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/p4_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity P4_ADDER
+# -- Compiling architecture STRUCTURAL of P4_ADDER
+# -- Compiling configuration CFG_p4_adder
+# -- Loading entity P4_ADDER
+# -- Loading architecture STRUCTURAL of P4_ADDER
+# -- Loading package MATH_REAL
+# -- Loading package NUMERIC_STD
+# -- Loading entity CARRY_GENERATOR
+# -- Loading entity SUM_GENERATOR
+# -- Loading configuration cfg_carry_generator_arch
+# -- Loading configuration cfg_sum_generator_structural
+# End time: 10:04:36 on Mar 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/tb_p4_adder.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 10:04:40 on Mar 31,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap2/vhdlsim/tb_p4_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity TB_P4_ADDER
+# -- Compiling architecture TEST of TB_P4_ADDER
+# -- Compiling configuration CFG_TEST_P4_ADDER
+# -- Loading entity TB_P4_ADDER
+# -- Loading architecture TEST of TB_P4_ADDER
+# -- Loading entity P4_ADDER
+# -- Loading configuration cfg_p4_adder
+# End time: 10:04:40 on Mar 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_p4_adder(test)
+# vsim work.tb_p4_adder(test) 
+# Start time: 10:04:55 on Mar 31,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.constants
+# Loading work.tb_p4_adder(test)#1
+# Loading ieee.math_real(body)
+# Loading ieee.numeric_std(body)
+# Loading work.carry_generator(arch)#1
+# Loading work.g(behave)#1
+# Loading work.pg(arch)#1
+# Loading work.csb(structural)#1
+add wave *
+run 90ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(7)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(7)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(7)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(7)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(7)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(7)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(6)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(6)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(6)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(6)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(6)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(6)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(5)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(5)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(5)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(5)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(5)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(5)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(4)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(4)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(4)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(4)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(4)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(4)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(3)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(3)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(3)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(3)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(3)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(3)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(2)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(2)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(2)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(2)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(2)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(2)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(1)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(1)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(1)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(1)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(1)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(1)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(0)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(0)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(0)/CSBI/RCA1
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(0)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(0)/CSBI/RCA0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_p4_adder/C1/sum_logic/SumBlock(0)/CSBI/RCA0
+# End time: 10:13:18 on Mar 31,2021, Elapsed time: 0:08:23
+# Errors: 0, Warnings: 48

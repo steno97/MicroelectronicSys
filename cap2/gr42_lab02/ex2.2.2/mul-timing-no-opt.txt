@@ -1,0 +1,215 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'BOOTHMUL' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : BOOTHMUL
+Version: F-2011.09-SP3
+Date   : Sat Apr  3 18:43:14 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[27] (input port)
+  Endpoint: P[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BOOTHMUL           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[27] (in)                                              0.00       0.00 f
+  U123/ZN (INV_X1)                                        0.05       0.05 r
+  U122/ZN (NAND4_X1)                                      0.05       0.10 f
+  U121/ZN (NOR4_X1)                                       0.12       0.22 r
+  U82/ZN (NAND2_X2)                                       0.13       0.35 f
+  U107/ZN (AND2_X2)                                       0.14       0.49 f
+  MUX0_0/INPUT[2][2] (MUX_GENERIC_NBIT64_INPUTS5_NBIT_SEL3_0)
+                                                          0.00       0.49 f
+  MUX0_0/U26/ZN (AOI222_X1)                               0.12       0.62 r
+  MUX0_0/U25/ZN (NAND2_X1)                                0.04       0.66 f
+  MUX0_0/Y[61] (MUX_GENERIC_NBIT64_INPUTS5_NBIT_SEL3_0)
+                                                          0.00       0.66 f
+  RCAi_0/A[2] (RCA_NBIT64_0)                              0.00       0.66 f
+  RCAi_0/add_1_root_add_53_2/A[2] (RCA_NBIT64_0_DW01_add_0)
+                                                          0.00       0.66 f
+  RCAi_0/add_1_root_add_53_2/U1_2/CO (FA_X1)              0.10       0.76 f
+  RCAi_0/add_1_root_add_53_2/U1_3/CO (FA_X1)              0.09       0.85 f
+  RCAi_0/add_1_root_add_53_2/U1_4/CO (FA_X1)              0.09       0.94 f
+  RCAi_0/add_1_root_add_53_2/U1_5/CO (FA_X1)              0.09       1.03 f
+  RCAi_0/add_1_root_add_53_2/U1_6/CO (FA_X1)              0.09       1.12 f
+  RCAi_0/add_1_root_add_53_2/U1_7/CO (FA_X1)              0.09       1.21 f
+  RCAi_0/add_1_root_add_53_2/U1_8/CO (FA_X1)              0.09       1.31 f
+  RCAi_0/add_1_root_add_53_2/U1_9/CO (FA_X1)              0.09       1.40 f
+  RCAi_0/add_1_root_add_53_2/U1_10/CO (FA_X1)             0.09       1.49 f
+  RCAi_0/add_1_root_add_53_2/U1_11/CO (FA_X1)             0.09       1.58 f
+  RCAi_0/add_1_root_add_53_2/U1_12/CO (FA_X1)             0.09       1.67 f
+  RCAi_0/add_1_root_add_53_2/U1_13/CO (FA_X1)             0.09       1.76 f
+  RCAi_0/add_1_root_add_53_2/U1_14/CO (FA_X1)             0.09       1.86 f
+  RCAi_0/add_1_root_add_53_2/U1_15/CO (FA_X1)             0.09       1.95 f
+  RCAi_0/add_1_root_add_53_2/U1_16/CO (FA_X1)             0.09       2.04 f
+  RCAi_0/add_1_root_add_53_2/U1_17/CO (FA_X1)             0.09       2.13 f
+  RCAi_0/add_1_root_add_53_2/U1_18/CO (FA_X1)             0.09       2.22 f
+  RCAi_0/add_1_root_add_53_2/U1_19/CO (FA_X1)             0.09       2.31 f
+  RCAi_0/add_1_root_add_53_2/U1_20/CO (FA_X1)             0.09       2.40 f
+  RCAi_0/add_1_root_add_53_2/U1_21/CO (FA_X1)             0.09       2.50 f
+  RCAi_0/add_1_root_add_53_2/U1_22/CO (FA_X1)             0.09       2.59 f
+  RCAi_0/add_1_root_add_53_2/U1_23/CO (FA_X1)             0.09       2.68 f
+  RCAi_0/add_1_root_add_53_2/U1_24/CO (FA_X1)             0.09       2.77 f
+  RCAi_0/add_1_root_add_53_2/U1_25/CO (FA_X1)             0.09       2.86 f
+  RCAi_0/add_1_root_add_53_2/U1_26/CO (FA_X1)             0.09       2.95 f
+  RCAi_0/add_1_root_add_53_2/U1_27/CO (FA_X1)             0.09       3.05 f
+  RCAi_0/add_1_root_add_53_2/U1_28/CO (FA_X1)             0.09       3.14 f
+  RCAi_0/add_1_root_add_53_2/U1_29/CO (FA_X1)             0.09       3.23 f
+  RCAi_0/add_1_root_add_53_2/U1_30/CO (FA_X1)             0.09       3.32 f
+  RCAi_0/add_1_root_add_53_2/U1_31/CO (FA_X1)             0.09       3.41 f
+  RCAi_0/add_1_root_add_53_2/U1_32/CO (FA_X1)             0.09       3.50 f
+  RCAi_0/add_1_root_add_53_2/U1_33/CO (FA_X1)             0.09       3.60 f
+  RCAi_0/add_1_root_add_53_2/U1_34/CO (FA_X1)             0.09       3.69 f
+  RCAi_0/add_1_root_add_53_2/U1_35/CO (FA_X1)             0.09       3.78 f
+  RCAi_0/add_1_root_add_53_2/U1_36/CO (FA_X1)             0.09       3.87 f
+  RCAi_0/add_1_root_add_53_2/U1_37/CO (FA_X1)             0.09       3.96 f
+  RCAi_0/add_1_root_add_53_2/U1_38/CO (FA_X1)             0.09       4.05 f
+  RCAi_0/add_1_root_add_53_2/U1_39/CO (FA_X1)             0.09       4.14 f
+  RCAi_0/add_1_root_add_53_2/U1_40/CO (FA_X1)             0.09       4.24 f
+  RCAi_0/add_1_root_add_53_2/U1_41/CO (FA_X1)             0.09       4.33 f
+  RCAi_0/add_1_root_add_53_2/U1_42/CO (FA_X1)             0.09       4.42 f
+  RCAi_0/add_1_root_add_53_2/U1_43/CO (FA_X1)             0.09       4.51 f
+  RCAi_0/add_1_root_add_53_2/U1_44/CO (FA_X1)             0.09       4.60 f
+  RCAi_0/add_1_root_add_53_2/U1_45/CO (FA_X1)             0.09       4.69 f
+  RCAi_0/add_1_root_add_53_2/U1_46/CO (FA_X1)             0.09       4.79 f
+  RCAi_0/add_1_root_add_53_2/U1_47/CO (FA_X1)             0.09       4.88 f
+  RCAi_0/add_1_root_add_53_2/U1_48/CO (FA_X1)             0.09       4.97 f
+  RCAi_0/add_1_root_add_53_2/U1_49/CO (FA_X1)             0.09       5.06 f
+  RCAi_0/add_1_root_add_53_2/U1_50/S (FA_X1)              0.14       5.20 r
+  RCAi_0/add_1_root_add_53_2/SUM[50] (RCA_NBIT64_0_DW01_add_0)
+                                                          0.00       5.20 r
+  RCAi_0/S[50] (RCA_NBIT64_0)                             0.00       5.20 r
+  RCAi_1/A[50] (RCA_NBIT64_14)                            0.00       5.20 r
+  RCAi_1/add_1_root_add_53_2/A[50] (RCA_NBIT64_14_DW01_add_0)
+                                                          0.00       5.20 r
+  RCAi_1/add_1_root_add_53_2/U1_50/S (FA_X1)              0.12       5.32 f
+  RCAi_1/add_1_root_add_53_2/SUM[50] (RCA_NBIT64_14_DW01_add_0)
+                                                          0.00       5.32 f
+  RCAi_1/S[50] (RCA_NBIT64_14)                            0.00       5.32 f
+  RCAi_2/A[50] (RCA_NBIT64_13)                            0.00       5.32 f
+  RCAi_2/add_1_root_add_53_2/A[50] (RCA_NBIT64_13_DW01_add_0)
+                                                          0.00       5.32 f
+  RCAi_2/add_1_root_add_53_2/U1_50/CO (FA_X1)             0.10       5.42 f
+  RCAi_2/add_1_root_add_53_2/U1_51/CO (FA_X1)             0.09       5.51 f
+  RCAi_2/add_1_root_add_53_2/U1_52/CO (FA_X1)             0.09       5.60 f
+  RCAi_2/add_1_root_add_53_2/U1_53/CO (FA_X1)             0.09       5.69 f
+  RCAi_2/add_1_root_add_53_2/U1_54/S (FA_X1)              0.14       5.83 r
+  RCAi_2/add_1_root_add_53_2/SUM[54] (RCA_NBIT64_13_DW01_add_0)
+                                                          0.00       5.83 r
+  RCAi_2/S[54] (RCA_NBIT64_13)                            0.00       5.83 r
+  RCAi_3/A[54] (RCA_NBIT64_12)                            0.00       5.83 r
+  RCAi_3/add_1_root_add_53_2/A[54] (RCA_NBIT64_12_DW01_add_0)
+                                                          0.00       5.83 r
+  RCAi_3/add_1_root_add_53_2/U1_54/S (FA_X1)              0.12       5.95 f
+  RCAi_3/add_1_root_add_53_2/SUM[54] (RCA_NBIT64_12_DW01_add_0)
+                                                          0.00       5.95 f
+  RCAi_3/S[54] (RCA_NBIT64_12)                            0.00       5.95 f
+  RCAi_4/A[54] (RCA_NBIT64_11)                            0.00       5.95 f
+  RCAi_4/add_1_root_add_53_2/A[54] (RCA_NBIT64_11_DW01_add_0)
+                                                          0.00       5.95 f
+  RCAi_4/add_1_root_add_53_2/U1_54/CO (FA_X1)             0.10       6.05 f
+  RCAi_4/add_1_root_add_53_2/U1_55/CO (FA_X1)             0.09       6.15 f
+  RCAi_4/add_1_root_add_53_2/U1_56/CO (FA_X1)             0.09       6.24 f
+  RCAi_4/add_1_root_add_53_2/U1_57/CO (FA_X1)             0.09       6.33 f
+  RCAi_4/add_1_root_add_53_2/U1_58/S (FA_X1)              0.14       6.47 r
+  RCAi_4/add_1_root_add_53_2/SUM[58] (RCA_NBIT64_11_DW01_add_0)
+                                                          0.00       6.47 r
+  RCAi_4/S[58] (RCA_NBIT64_11)                            0.00       6.47 r
+  RCAi_5/A[58] (RCA_NBIT64_10)                            0.00       6.47 r
+  RCAi_5/add_1_root_add_53_2/A[58] (RCA_NBIT64_10_DW01_add_0)
+                                                          0.00       6.47 r
+  RCAi_5/add_1_root_add_53_2/U1_58/S (FA_X1)              0.12       6.58 f
+  RCAi_5/add_1_root_add_53_2/SUM[58] (RCA_NBIT64_10_DW01_add_0)
+                                                          0.00       6.58 f
+  RCAi_5/S[58] (RCA_NBIT64_10)                            0.00       6.58 f
+  RCAi_6/A[58] (RCA_NBIT64_9)                             0.00       6.58 f
+  RCAi_6/add_1_root_add_53_2/A[58] (RCA_NBIT64_9_DW01_add_0)
+                                                          0.00       6.58 f
+  RCAi_6/add_1_root_add_53_2/U1_58/CO (FA_X1)             0.10       6.69 f
+  RCAi_6/add_1_root_add_53_2/U1_59/S (FA_X1)              0.14       6.83 r
+  RCAi_6/add_1_root_add_53_2/SUM[59] (RCA_NBIT64_9_DW01_add_0)
+                                                          0.00       6.83 r
+  RCAi_6/S[59] (RCA_NBIT64_9)                             0.00       6.83 r
+  RCAi_7/A[59] (RCA_NBIT64_8)                             0.00       6.83 r
+  RCAi_7/add_1_root_add_53_2/A[59] (RCA_NBIT64_8_DW01_add_0)
+                                                          0.00       6.83 r
+  RCAi_7/add_1_root_add_53_2/U1_59/S (FA_X1)              0.12       6.94 f
+  RCAi_7/add_1_root_add_53_2/SUM[59] (RCA_NBIT64_8_DW01_add_0)
+                                                          0.00       6.94 f
+  RCAi_7/S[59] (RCA_NBIT64_8)                             0.00       6.94 f
+  RCAi_8/A[59] (RCA_NBIT64_7)                             0.00       6.94 f
+  RCAi_8/add_1_root_add_53_2/A[59] (RCA_NBIT64_7_DW01_add_0)
+                                                          0.00       6.94 f
+  RCAi_8/add_1_root_add_53_2/U1_59/CO (FA_X1)             0.10       7.05 f
+  RCAi_8/add_1_root_add_53_2/U1_60/S (FA_X1)              0.14       7.18 r
+  RCAi_8/add_1_root_add_53_2/SUM[60] (RCA_NBIT64_7_DW01_add_0)
+                                                          0.00       7.18 r
+  RCAi_8/S[60] (RCA_NBIT64_7)                             0.00       7.18 r
+  RCAi_9/A[60] (RCA_NBIT64_6)                             0.00       7.18 r
+  RCAi_9/add_1_root_add_53_2/A[60] (RCA_NBIT64_6_DW01_add_0)
+                                                          0.00       7.18 r
+  RCAi_9/add_1_root_add_53_2/U1_60/S (FA_X1)              0.12       7.30 f
+  RCAi_9/add_1_root_add_53_2/SUM[60] (RCA_NBIT64_6_DW01_add_0)
+                                                          0.00       7.30 f
+  RCAi_9/S[60] (RCA_NBIT64_6)                             0.00       7.30 f
+  RCAi_10/A[60] (RCA_NBIT64_5)                            0.00       7.30 f
+  RCAi_10/add_1_root_add_53_2/A[60] (RCA_NBIT64_5_DW01_add_0)
+                                                          0.00       7.30 f
+  RCAi_10/add_1_root_add_53_2/U1_60/CO (FA_X1)            0.10       7.41 f
+  RCAi_10/add_1_root_add_53_2/U1_61/S (FA_X1)             0.14       7.54 r
+  RCAi_10/add_1_root_add_53_2/SUM[61] (RCA_NBIT64_5_DW01_add_0)
+                                                          0.00       7.54 r
+  RCAi_10/S[61] (RCA_NBIT64_5)                            0.00       7.54 r
+  RCAi_11/A[61] (RCA_NBIT64_4)                            0.00       7.54 r
+  RCAi_11/add_1_root_add_53_2/A[61] (RCA_NBIT64_4_DW01_add_0)
+                                                          0.00       7.54 r
+  RCAi_11/add_1_root_add_53_2/U1_61/S (FA_X1)             0.12       7.66 f
+  RCAi_11/add_1_root_add_53_2/SUM[61] (RCA_NBIT64_4_DW01_add_0)
+                                                          0.00       7.66 f
+  RCAi_11/S[61] (RCA_NBIT64_4)                            0.00       7.66 f
+  RCAi_12/A[61] (RCA_NBIT64_3)                            0.00       7.66 f
+  RCAi_12/add_1_root_add_53_2/A[61] (RCA_NBIT64_3_DW01_add_0)
+                                                          0.00       7.66 f
+  RCAi_12/add_1_root_add_53_2/U1_61/CO (FA_X1)            0.10       7.77 f
+  RCAi_12/add_1_root_add_53_2/U1_62/S (FA_X1)             0.14       7.90 r
+  RCAi_12/add_1_root_add_53_2/SUM[62] (RCA_NBIT64_3_DW01_add_0)
+                                                          0.00       7.90 r
+  RCAi_12/S[62] (RCA_NBIT64_3)                            0.00       7.90 r
+  RCAi_13/A[62] (RCA_NBIT64_2)                            0.00       7.90 r
+  RCAi_13/add_1_root_add_53_2/A[62] (RCA_NBIT64_2_DW01_add_0)
+                                                          0.00       7.90 r
+  RCAi_13/add_1_root_add_53_2/U1_62/S (FA_X1)             0.12       8.02 f
+  RCAi_13/add_1_root_add_53_2/SUM[62] (RCA_NBIT64_2_DW01_add_0)
+                                                          0.00       8.02 f
+  RCAi_13/S[62] (RCA_NBIT64_2)                            0.00       8.02 f
+  RCAi_14/A[62] (RCA_NBIT64_1)                            0.00       8.02 f
+  RCAi_14/add_1_root_add_53_2/A[62] (RCA_NBIT64_1_DW01_add_0)
+                                                          0.00       8.02 f
+  RCAi_14/add_1_root_add_53_2/U1_62/CO (FA_X1)            0.10       8.13 f
+  RCAi_14/add_1_root_add_53_2/U1_63/S (FA_X1)             0.13       8.25 r
+  RCAi_14/add_1_root_add_53_2/SUM[63] (RCA_NBIT64_1_DW01_add_0)
+                                                          0.00       8.25 r
+  RCAi_14/S[63] (RCA_NBIT64_1)                            0.00       8.25 r
+  P[63] (out)                                             0.00       8.25 r
+  data arrival time                                                  8.25
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
