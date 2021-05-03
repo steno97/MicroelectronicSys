@@ -1,0 +1,32 @@
+#######################################################
+#SCRIPT FOR SPEEDING UP and RECORDING the RF SYNTHESIS#
+#######################################################
+analyze -library WORK -format vhdl {constants.vhd}
+analyze -library WORK -format vhdl {window_RF.vhd}
+# elaborating the top entity: here WINDRF#
+elaborate WINDRF -architecture BHV -library WORK -parameters "M = 8, N = 8, F = 2, NBIT = 64"
+# first compilation: without constraints #
+compile 
+# reporting timing and power without constraints #
+report_timing > WRF_NOopt_t.rpt
+report_area > WRF_NOopt_a.rpt
+
+# second compilation: clock signal for the sequential block#
+create_clock -name "CLK" -period 2 CLK
+report_clock
+compile
+# save report
+report_timing > WFR_timeopt_1t.rpt
+report_area > WFR_timeopt_1a.rpt
+
+#third compilation: combinational max delay from each input to each output
+set_max_delay 2 -from [all_inputs] -to [all_outputs]
+# optimize
+compile -map_effort high
+# save report
+report_timing > WFR_timeopt_2t.rpt
+report_area > WFR_timeopt_2a.rpt
+# saving files
+write -hierarchy -format ddc -output WRF-bhv-topt.ddc
+write -hierarchy -format vhdl -output WRF-bhv-topt.vhdl
+write -hierarchy -format verilog -output WRF-bhv-topt.v

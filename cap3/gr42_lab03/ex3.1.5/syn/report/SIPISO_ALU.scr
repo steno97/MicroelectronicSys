@@ -1,0 +1,47 @@
+##############################################################
+#SCRIPT FOR SPEEDING UP and RECORDING the SIPISO_ALU SYNTHESIS#
+# analyzing and checking vhdl netlist#
+# here the analyze command is used for each file from bottom to top #
+##############################################################
+
+analyze -library WORK -format vhdl {sipisoAluControl.vhd}
+analyze -library WORK -format vhdl {sipisoalu.vhd}
+##############################################################
+# elaborating the top entity
+# choose the architecture you want
+elaborate SIPISOALU -library WORK
+##########################################
+# first compilation, without constraints #
+compile -exact_map
+# reporting timing and power after the first synthesis without constraints #
+report_timing > report_timing_noConstr.txt
+report_power > report_power_noConstr.txt
+# reporting power cell and power consumed due to the toggle count of each net
+report_power -cell > report_power_cell_noConstr.txt
+report_power -net > report_power_net_noConstr.txt
+# saving files
+write -hierarchy -format vhdl -output SIPISO_ALU_NoOpt.vhdl
+# Define a new variable Period. The min Period found is 0.38 ns 
+set Period 0.38
+#Forces a clock of period Period connected to the input port CLK #
+create_clock -name "CLK" -period $Period {"CLK"}
+#forces a combinational max delay of Period ns from each of the inputs
+#to each of th output in case combinational paths are present 
+set_max_delay $Period -from [all_inputs] -to [all_outputs]
+compile_ultra
+report_power > sipiso_timeopt_1pw.rpt
+report_timing > sipiso_timeopt_1t.rpt
+#
+# forcing the maximum power 
+# Since initial power 396.6uW, now forced to 300 uW
+set_max_dynamic_power 300 uW
+compile_ultra 
+report_power > rca_pwopt_2pw.rpt
+report_timing > rca_pwopt_2t.rpt
+report_power -cell > rca_constraint_power_cell.rpt
+report_power -net > rca_constraint_power_net.rpt
+# saving files
+write -hierarchy -format ddc -output SIPISO_ALU_opt.ddc
+write -hierarchy -format vhdl -output SIPISO_ALU_opt.vhdl
+write -hierarchy -format verilog -output SIPISO_ALU_opt.v
+

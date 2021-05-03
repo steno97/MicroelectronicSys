@@ -1,0 +1,66 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'windRF_M8_N8_F2_NBIT64' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : windRF_M8_N8_F2_NBIT64
+Version: F-2011.09-SP3
+Date   : Mon Apr 26 17:45:45 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: CWP_reg[0] (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: REGISTERS_reg[31][4]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  windRF_M8_N8_F2_NBIT64
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  CWP_reg[0]/CK (DFF_X1)                   0.00 #     0.00 r
+  CWP_reg[0]/QN (DFF_X1)                   0.11       0.11 r
+  U25699/ZN (NOR2_X1)                      0.04       0.15 f
+  U25710/ZN (AND2_X1)                      0.05       0.20 f
+  r498/U1_1/CO (FA_X1)                     0.09       0.28 f
+  r498/U1_2/CO (FA_X1)                     0.09       0.38 f
+  r498/U1_3/CO (FA_X1)                     0.09       0.47 f
+  r498/U1_4/CO (FA_X1)                     0.09       0.56 f
+  r498/U3/Z (XOR2_X1)                      0.09       0.65 f
+  U19599/ZN (NOR3_X1)                      0.10       0.74 r
+  U22929/ZN (NAND2_X1)                     0.08       0.82 f
+  U17785/ZN (OAI221_X1)                    0.09       0.91 r
+  U17367/Z (BUF_X1)                        0.10       1.02 r
+  U22978/ZN (OAI211_X1)                    0.06       1.08 f
+  U22977/Z (BUF_X1)                        0.05       1.13 f
+  U17986/Z (BUF_X1)                        0.07       1.20 f
+  U23903/ZN (OAI222_X1)                    0.07       1.27 r
+  REGISTERS_reg[31][4]/D (DFF_X1)          0.01       1.28 r
+  data arrival time                                   1.28
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  REGISTERS_reg[31][4]/CK (DFF_X1)         0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -1.28
+  -----------------------------------------------------------
+  slack (MET)                                         0.68
+
+
+1

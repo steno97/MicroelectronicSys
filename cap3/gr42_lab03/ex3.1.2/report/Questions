@@ -1,0 +1,4 @@
+Question 1: The adding of a clock generator to our circuit carries on some delay in the data arrival, this happens because some components are added at the beginning of our input and this blocks carries some delays to the final structure; moreover the data must be optimized with the clock before be sampled. All of these reasons explain the difference in the two timing analyses.
+
+Question 2: The clock generator caused the presence of more logic circuits (flip-flop) at the beginning and at the end of the circuit to allow the synchronization of data flow with the clock edge, these blocks increase the delay and the data path.
+

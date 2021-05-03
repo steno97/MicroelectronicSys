@@ -1,0 +1,52 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SIPISOALU
+Version: F-2011.09-SP3
+Date   : Thu Apr 29 10:42:27 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: control/CURRENT_STATE_reg[1]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: control/CURRENT_STATE_reg[2]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SIPISOALU          5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  control/CURRENT_STATE_reg[1]/CK (DFFS_X1)               0.00       0.00 r
+  control/CURRENT_STATE_reg[1]/QN (DFFS_X1)               0.08       0.08 f
+  U951/ZN (NAND3_X1)                                      0.04       0.12 r
+  U952/ZN (NOR2_X1)                                       0.02       0.14 f
+  U970/ZN (AOI22_X1)                                      0.07       0.22 r
+  U965/ZN (OAI221_X1)                                     0.05       0.27 f
+  U963/ZN (AOI211_X1)                                     0.08       0.35 r
+  control/CURRENT_STATE_reg[2]/D (DFFS_X1)                0.01       0.36 r
+  data arrival time                                                  0.36
+
+  clock CLK (rise edge)                                   0.38       0.38
+  clock network delay (ideal)                             0.00       0.38
+  control/CURRENT_STATE_reg[2]/CK (DFFS_X1)               0.00       0.38 r
+  library setup time                                     -0.04       0.34
+  data required time                                                 0.34
+  --------------------------------------------------------------------------
+  data required time                                                 0.34
+  data arrival time                                                 -0.36
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.02
+
+
+1

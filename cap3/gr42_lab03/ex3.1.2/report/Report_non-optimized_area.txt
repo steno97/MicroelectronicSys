@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : register_file
+Version: F-2011.09-SP3
+Date   : Tue Apr 13 09:03:36 2021
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'register_file' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mariagrazia.graziano/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+Number of ports:                          117
+Number of nets:                          4395
+Number of cells:                         3574
+Number of combinational cells:           2486
+Number of sequential cells:              1088
+Number of macros:                           0
+Number of buf/inv:                         78
+Number of references:                      22
+
+Combinational area:       3932.278009
+Noncombinational area:    4919.935822
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:          8852.213830
+Total area:                 undefined
