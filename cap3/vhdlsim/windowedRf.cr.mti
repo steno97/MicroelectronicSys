@@ -1,0 +1,37 @@
+/home/ms21.42/cap3/vhdlsim/window_RF.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/ms21.42/cap3/vhdlsim/window_RF.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package CONSTANTS
+-- Compiling entity windRF
+-- Compiling architecture bhv of windRF
+-- Compiling configuration CFG_WINDRF_BHV
+-- Loading entity windRF
+-- Loading architecture bhv of windRF
+
+} {} {}} /home/ms21.42/cap3/vhdlsim/constants.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/ms21.42/cap3/vhdlsim/constants.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package MATH_REAL
+-- Compiling package CONSTANTS
+
+} {} {}} /home/ms21.42/cap3/vhdlsim/tb_windowedRF.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/ms21.42/cap3/vhdlsim/tb_windowedRF.vhd
+QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package CONSTANTS
+-- Compiling entity TBWINRF
+-- Compiling architecture TEST of TBWINRF
+-- Compiling configuration CFG_TESTWRF
+-- Loading entity TBWINRF
+-- Loading architecture TEST of TBWINRF
+-- Loading entity windRF
+-- Loading configuration cfg_windrf_bhv
+
+} {} {}}

@@ -1,0 +1,82 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project windowedRf
+# reading /software/mentor/questa10.7c/questasim/linux_x86_64/../modelsim.ini
+vcom -reportprogress 300 -work work /home/ms21.42/cap3/vhdlsim/constants.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:57:21 on Apr 29,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap3/vhdlsim/constants.vhd 
+# -- Loading package STANDARD
+# -- Loading package MATH_REAL
+# -- Compiling package CONSTANTS
+# End time: 18:57:21 on Apr 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap3/vhdlsim/registerfile.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:57:23 on Apr 29,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap3/vhdlsim/registerfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package CONSTANTS
+# -- Compiling entity register_file
+# -- Compiling architecture A of register_file
+# -- Compiling configuration CFG_RF_BEH
+# -- Loading entity register_file
+# -- Loading architecture A of register_file
+# End time: 18:57:23 on Apr 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms21.42/cap3/vhdlsim/tb_registerfile.vhd
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 18:57:25 on Apr 29,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap3/vhdlsim/tb_registerfile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBREGISTERFILE
+# -- Compiling architecture TESTA of TBREGISTERFILE
+# -- Compiling configuration CFG_TESTRF
+# -- Loading entity TBREGISTERFILE
+# -- Loading architecture TESTA of TBREGISTERFILE
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package CONSTANTS
+# -- Loading entity register_file
+# -- Loading configuration cfg_rf_beh
+# End time: 18:57:25 on Apr 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tbregisterfile(testa)
+# vsim work.tbregisterfile(testa) 
+# Start time: 18:58:26 on Apr 29,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.constants
+# Loading work.tbregisterfile(testa)#1
+add wave *
+run 100ns
+# End time: 19:05:09 on Apr 29,2021, Elapsed time: 0:06:43
+# Errors: 0, Warnings: 0

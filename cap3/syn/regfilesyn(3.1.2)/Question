@@ -1,0 +1,3 @@
+Question 1: The adding of clock generator to our circuit carries on some delay in the data arrival, for the same reason we have a constraint for the output and so the data must be available before these delays.
+
+Question 2: The clock generator caused the presence of more logic circuits at the beginning and at the end of the circuit to allow the synchronization of data flow with the clock edge.
