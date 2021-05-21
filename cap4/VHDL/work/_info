@@ -1,0 +1,308 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms21.42/cap4/VHDL
+T_opt
+!s110 1620761232
+VSl=Gei3U:UPTYK6NgLc>Y2
+04 7 4 work cu_test test 1
+=1-5254009c17d7-609ada90-b4c44-632
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+T_opt1
+!s110 1620374526
+Vg0NJIdM033BgcW[2lRLTm0
+04 1 0 work b 1
+=1-5254009c17d7-6094f3fe-9598a-7539
+R1
+R2
+n@_opt1
+R3
+R0
+Ca
+ecu
+adlx_cu_rtl
+DAx4 work 2 cu 10 dlx_cu_rtl 22 LLiT0;]id?K>UkE4`BS913
+Z4 DPx4 work 7 mytypes 0 22 ;JT>5m87:UQ]9U6=VdkaP3
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DEx4 work 2 cu 0 22 OHjO<DUXSR:eF1>hXT0DW0
+Z10 w1620374443
+R0
+Z11 8/home/ms21.42/cap4/VHDL/CU_HW_MY_IMPLEMENTATION.vhd
+Z12 F/home/ms21.42/cap4/VHDL/CU_HW_MY_IMPLEMENTATION.vhd
+l0
+L142
+VNhW;mSi;FUPm?B5?D3KZ52
+!s100 ?_XYeIF9hEPM4UP8GTjjG0
+Z13 OL;C;10.7c;67
+32
+Z14 !s110 1620374514
+!i10b 0
+Z15 !s108 1620374514.000000
+Z16 !s90 -reportprogress|300|-work|work|/home/ms21.42/cap4/VHDL/CU_HW_MY_IMPLEMENTATION.vhd|
+Z17 !s107 /home/ms21.42/cap4/VHDL/CU_HW_MY_IMPLEMENTATION.vhd|
+!i113 0
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Cb
+ecu_test
+aTEST
+Z20 DEx4 work 6 cu_fsm 0 22 BaPFS[>@_T`IdHo6Tc6852
+DCx4 work 13 cfg_cufsm_bhv 0 22 =@_;HdCdTQWIL3O2o_Qh^1
+DAx4 work 7 cu_test 4 test 22 G1L2J;LX4Q09QUMlo@Zbn0
+Z21 DPx4 work 7 mytypes 0 22 F[d:PBAQMPVhF2BlGO_zi0
+Z22 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R7
+R8
+Z23 DEx4 work 7 cu_test 0 22 cHeeFk9miWnbjllcLe9g?0
+Z24 w1620761171
+R0
+Z25 8/home/ms21.42/cap4/VHDL/cu fsm/tb_CU_FSM.vhd
+Z26 F/home/ms21.42/cap4/VHDL/cu fsm/tb_CU_FSM.vhd
+l0
+L246
+Vl<WoMckkLLZd?fo_@GYRL0
+!s100 T5MLcM;PNZ`9V]A42C5ob2
+R13
+32
+Z27 !s110 1620761208
+!i10b 0
+Z28 !s108 1620761208.000000
+Z29 !s90 -reportprogress|300|-work|work|/home/ms21.42/cap4/VHDL/cu fsm/tb_CU_FSM.vhd|
+Z30 !s107 /home/ms21.42/cap4/VHDL/cu fsm/tb_CU_FSM.vhd|
+!i113 0
+R18
+R19
+Ccfg_cufsm_bhv
+ecu_fsm
+abhv
+DAx4 work 6 cu_fsm 3 bhv 22 dcAP`2A4e:@4BP:KbH@h=3
+R21
+R22
+R7
+R8
+R20
+Z31 w1620755468
+R0
+Z32 8/home/ms21.42/cap4/VHDL/cu fsm/MY_CU_FSM.vhd
+Z33 F/home/ms21.42/cap4/VHDL/cu fsm/MY_CU_FSM.vhd
+l0
+L229
+V=@_;HdCdTQWIL3O2o_Qh^1
+!s100 lY1`:K`4Qdzi8ceDOE:gM3
+R13
+32
+Z34 !s110 1620761207
+!i10b 0
+Z35 !s108 1620761207.000000
+Z36 !s90 -reportprogress|300|-work|work|/home/ms21.42/cap4/VHDL/cu fsm/MY_CU_FSM.vhd|
+Z37 !s107 /home/ms21.42/cap4/VHDL/cu fsm/MY_CU_FSM.vhd|
+!i113 0
+R18
+R19
+Ecu
+R10
+R4
+R5
+R6
+R7
+R8
+R0
+R11
+R12
+l0
+L7
+VOHjO<DUXSR:eF1>hXT0DW0
+!s100 >3Unia@kmEEU9<[TD;e6M2
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Adlx_cu_rtl
+R4
+R5
+R6
+R7
+R8
+R9
+l71
+L37
+VLLiT0;]id?K>UkE4`BS913
+!s100 @^DzZKi@@6f:P9H3LTMAe3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Ecu_fsm
+R31
+R21
+R22
+R7
+R8
+R0
+R32
+R33
+l0
+L7
+VBaPFS[>@_T`IdHo6Tc6852
+!s100 hODHOl2Gdo=YhC>OTjBIU2
+R13
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 0
+R18
+R19
+Abhv
+R21
+R22
+R7
+R8
+R20
+l96
+L40
+VdcAP`2A4e:@4BP:KbH@h=3
+!s100 YQRBA;@z?MW<0<I34X?e81
+R13
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 0
+R18
+R19
+Ecu_test
+R24
+R21
+R22
+R7
+R8
+R0
+R25
+R26
+l0
+L6
+VcHeeFk9miWnbjllcLe9g?0
+!s100 YGK=[HC>d1DI81EId@Q>;0
+R13
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R18
+R19
+Atest
+R21
+R22
+R7
+R8
+R23
+l57
+L9
+VG1L2J;LX4Q09QUMlo@Zbn0
+!s100 YHKBBm?JfaH4K9jjQFQMK2
+R13
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R18
+R19
+Edlx_cu
+Z38 w1620021753
+R5
+R6
+R7
+R8
+R0
+Z39 8/home/ms21.42/cap4/VHDL/CU_UP.vhd
+Z40 F/home/ms21.42/cap4/VHDL/CU_UP.vhd
+l0
+L7
+VJm;@IHZDXbmVK2A11OCPL3
+!s100 @Q]Q61Ga7nYJ]D7gGKk_z2
+R13
+32
+Z41 !s110 1620290096
+!i10b 1
+Z42 !s108 1620290096.000000
+Z43 !s90 -reportprogress|300|-work|work|/home/ms21.42/cap4/VHDL/CU_UP.vhd|
+Z44 !s107 /home/ms21.42/cap4/VHDL/CU_UP.vhd|
+!i113 0
+R18
+R19
+Adlx_cu_rtl
+R5
+R6
+R7
+R8
+DEx4 work 6 dlx_cu 0 22 Jm;@IHZDXbmVK2A11OCPL3
+l307
+L49
+V2J?DD3XdG8ZJDi]Mdlk;_0
+!s100 P1eOX?XAJo=AWbb3k5]L23
+R13
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 0
+R18
+R19
+Pmytypes
+R7
+R8
+w1620295993
+R0
+8/home/ms21.42/cap4/VHDL/cu fsm/myTypes.vhd
+F/home/ms21.42/cap4/VHDL/cu fsm/myTypes.vhd
+l0
+L4
+VF[d:PBAQMPVhF2BlGO_zi0
+!s100 OP]b^2JGj<nHm_11I4C]S3
+R13
+32
+!s110 1620761206
+!i10b 1
+!s108 1620761206.000000
+!s90 -reportprogress|300|-work|work|/home/ms21.42/cap4/VHDL/cu fsm/myTypes.vhd|
+!s107 /home/ms21.42/cap4/VHDL/cu fsm/myTypes.vhd|
+!i113 0
+R18
+R19

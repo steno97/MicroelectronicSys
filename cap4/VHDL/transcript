@@ -1,0 +1,157 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work {/home/ms21.42/cap4/VHDL/cu fsm/myTypes.vhd}
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:21:33 on May 11,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap4/VHDL/cu fsm/myTypes.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package myTypes
+# End time: 20:21:33 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/ms21.42/cap4/VHDL/cu fsm/MY_CU_FSM.vhd}
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:21:34 on May 11,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap4/VHDL/cu fsm/MY_CU_FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package myTypes
+# -- Compiling entity cu_fsm
+# -- Compiling architecture bhv of cu_fsm
+# -- Compiling configuration CFG_CUFSM_BHV
+# -- Loading entity cu_fsm
+# -- Loading architecture bhv of cu_fsm
+# End time: 20:21:34 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/ms21.42/cap4/VHDL/cu fsm/tb_CU_FSM.vhd}
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 20:21:35 on May 11,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap4/VHDL/cu fsm/tb_CU_FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package myTypes
+# -- Compiling entity cu_test
+# -- Compiling architecture TEST of cu_test
+# -- Compiling configuration b
+# -- Loading entity cu_test
+# -- Loading architecture TEST of cu_test
+# -- Loading entity cu_fsm
+# -- Loading configuration cfg_cufsm_bhv
+# End time: 20:21:35 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.cu_test(test)
+# vsim work.cu_test(test) 
+# Start time: 20:22:23 on May 11,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mytypes
+# Loading work.cu_test(test)#1
+add wave *
+add wave -position insertpoint  \
+sim:/cu_test/dut/cw
+run 127 ns
+add wave -position insertpoint  \
+sim:/cu_test/dut/cw_next_state
+add wave -position insertpoint  \
+sim:/cu_test/dut/CURRENT_STATE
+add wave -position insertpoint  \
+sim:/cu_test/dut/NEXT_STATE
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 127 ns
+add wave -position insertpoint  \
+sim:/cu_test/IR_i
+restart -f -nolist -nolog -nobreak -novirtuals -noassertions -nofcovers -noatv
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run 127 ns
+quit -sim
+# End time: 21:26:23 on May 11,2021, Elapsed time: 1:04:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/ms21.42/cap4/VHDL/cu fsm/myTypes.vhd}
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:26:46 on May 11,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap4/VHDL/cu fsm/myTypes.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package myTypes
+# End time: 21:26:46 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/ms21.42/cap4/VHDL/cu fsm/MY_CU_FSM.vhd}
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:26:47 on May 11,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap4/VHDL/cu fsm/MY_CU_FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package myTypes
+# -- Compiling entity cu_fsm
+# -- Compiling architecture bhv of cu_fsm
+# -- Compiling configuration CFG_CUFSM_BHV
+# -- Loading entity cu_fsm
+# -- Loading architecture bhv of cu_fsm
+# End time: 21:26:47 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/ms21.42/cap4/VHDL/cu fsm/tb_CU_FSM.vhd}
+# QuestaSim-64 vcom 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 21:26:48 on May 11,2021
+# vcom -reportprogress 300 -work work /home/ms21.42/cap4/VHDL/cu fsm/tb_CU_FSM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package myTypes
+# -- Compiling entity cu_test
+# -- Compiling architecture TEST of cu_test
+# -- Compiling configuration b
+# -- Loading entity cu_test
+# -- Loading architecture TEST of cu_test
+# -- Loading entity cu_fsm
+# -- Loading configuration cfg_cufsm_bhv
+# End time: 21:26:48 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.cu_test(test)
+# vsim work.cu_test(test) 
+# Start time: 21:27:12 on May 11,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mytypes
+# Loading work.cu_test(test)#1
+add wave -position insertpoint  \
+sim:/cu_test/IR_i
+add wave -position insertpoint  \
+sim:/cu_test/dut/cw_next_state
+add wave -position insertpoint  \
+sim:/cu_test/dut/CURRENT_STATE
+add wave -position insertpoint  \
+sim:/cu_test/dut/NEXT_STATE
+add wave -position insertpoint  \
+sim:/cu_test/dut/cw
+add wave *
+run 127 ns
+# End time: 22:01:03 on May 11,2021, Elapsed time: 0:33:51
+# Errors: 0, Warnings: 0

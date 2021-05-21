@@ -1,0 +1,390 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms21.42/cap4/VHDL/CU_up
+T_opt
+!s110 1620377270
+VAK4^C@;hZce74N<]57Ync0
+04 5 9 work cu_up cu_up_rtl 1
+=1-5254009c17d7-6094feb6-a7537-4231
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1620833882
+VU3knB1HM2F<KlZBX;JK>H2
+04 7 4 work cu_test test 1
+=1-5254009c17d7-609bf659-cfdec-56a3
+R1
+R2
+n@_opt1
+R3
+Cb
+ecu_test
+aTEST
+Z4 DEx4 work 5 cu_up 0 22 A[6oZ;SQBk4h5mlNzUMKl3
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+DCx4 work 12 cfg_cuup_rtl 0 22 o7Di2dS=cKT0WWSRjSAV00
+DAx4 work 7 cu_test 4 test 22 WWRC?:K>BeOmG1FgV@=jc1
+Z7 DPx4 work 7 mytypes 0 22 cjVT`5zfWNNM0F]QK7Xl>0
+Z8 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z11 DEx4 work 7 cu_test 0 22 OOm>4T_Q_KKHDlFPj]Cz30
+Z12 w1620381559
+R0
+Z13 8/home/ms21.42/cap4/VHDL/CU_up/cu_test.vhd
+Z14 F/home/ms21.42/cap4/VHDL/CU_up/cu_test.vhd
+l0
+L180
+VCk?S3;`1F<VjX3c=Fikb01
+!s100 7LUDSE]BN[Ena0XHNn1>W2
+Z15 OL;C;10.7c;67
+32
+Z16 !s110 1620833855
+!i10b 0
+Z17 !s108 1620833855.000000
+Z18 !s90 -reportprogress|300|-work|work|/home/ms21.42/cap4/VHDL/CU_up/cu_test.vhd|
+Z19 !s107 /home/ms21.42/cap4/VHDL/CU_up/cu_test.vhd|
+!i113 0
+Z20 o-work work
+Z21 tExplicit 1 CvgOpt 0
+Ccfg_cuup_rtl
+eCU_up
+aCU_up_RTL
+DAx4 work 5 cu_up 9 cu_up_rtl 22 UHfa5k9TYOzZ>D<fD@li>0
+R5
+R6
+R9
+R10
+R4
+Z22 w1620381084
+R0
+Z23 8/home/ms21.42/cap4/VHDL/CU_up/CU_up.vhd
+Z24 F/home/ms21.42/cap4/VHDL/CU_up/CU_up.vhd
+l0
+L197
+Vo7Di2dS=cKT0WWSRjSAV00
+!s100 6icUOZAiJ<=mgBc09_^_>2
+R15
+32
+R16
+!i10b 0
+R17
+Z25 !s90 -reportprogress|300|-work|work|/home/ms21.42/cap4/VHDL/CU_up/CU_up.vhd|
+Z26 !s107 /home/ms21.42/cap4/VHDL/CU_up/CU_up.vhd|
+!i113 0
+R20
+R21
+Ecu_test
+R12
+R7
+R8
+R9
+R10
+R0
+R13
+R14
+l0
+L7
+VOOm>4T_Q_KKHDlFPj]Cz30
+!s100 K2@KW7:n8U6QbW80Ga_e23
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Atest
+R7
+R8
+R9
+R10
+R11
+l60
+L10
+VWWRC?:K>BeOmG1FgV@=jc1
+!s100 `2g65PBB1Y0XdfdFE:dZU0
+R15
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+Ecu_up
+R22
+R5
+R6
+R9
+R10
+R0
+R23
+R24
+l0
+L7
+VA[6oZ;SQBk4h5mlNzUMKl3
+!s100 4VKTDmK`KeCZXeJHgETN=3
+R15
+32
+R16
+!i10b 1
+R17
+R25
+R26
+!i113 0
+R20
+R21
+Acu_up_rtl
+R5
+R6
+R9
+R10
+R4
+l125
+L43
+VUHfa5k9TYOzZ>D<fD@li>0
+!s100 V^MzLk?Dd=a7Qci3Jc4HG0
+R15
+32
+R16
+!i10b 1
+R17
+R25
+R26
+!i113 0
+R20
+R21
+Pmytypes
+R9
+R10
+w1620330454
+R0
+8/home/ms21.42/cap4/VHDL/CU_up/myTypes.vhd
+F/home/ms21.42/cap4/VHDL/CU_up/myTypes.vhd
+l0
+L4
+VcjVT`5zfWNNM0F]QK7Xl>0
+!s100 V0;j_lPkm>99=a[GH:j1L1
+R15
+32
+R16
+!i10b 1
+R17
+!s90 -reportprogress|300|-work|work|/home/ms21.42/cap4/VHDL/CU_up/myTypes.vhd|
+!s107 /home/ms21.42/cap4/VHDL/CU_up/myTypes.vhd|
+!i113 0
+R20
+R21
+p_2000.vhd|
+!s107 vhdl_src/vital2000/prmtvs_p_2000.vhd|
+!i113 1
+R98
+R14
+Bbody
+DPx4 work 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+R97
+R21
+R20
+31
+R27
+!i10b 1
+R3
+R4
+8vhdl_src/vital2000/prmtvs_b_2000.vhd
+Fvhdl_src/vital2000/prmtvs_b_2000.vhd
+l0
+L33
+VL8@OL8nfVkLF;7TL8_DPa1
+!s100 L8@OL8nfVkLF;7TL8_DPa1
+R9
+R28
+!s90 -debug|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/prmtvs_b_2000.vhd|
+!s107 vhdl_src/vital2000/prmtvs_b_2000.vhd|
+!i113 1
+R98
+R14
+Pvital_timing
+R21
+R20
+31
+b1
+R2
+!i10b 1
+R3
+b1
+R4
+b1
+R5
+R6
+8vhdl_src/vital2000/timing_p_2000.vhd
+Fvhdl_src/vital2000/timing_p_2000.vhd
+l0
+L70
+VJ>EBealN09f8GzldA[z2>3
+!s100 J>EBealN09f8GzldA[z2>3
+R9
+b1
+R10
+!s90 -debug|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/timing_p_2000.vhd|
+!s107 vhdl_src/vital2000/timing_p_2000.vhd|
+!i113 1
+R98
+R14
+Bbody
+DPx4 work 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R21
+R20
+31
+R2
+!i10b 1
+R3
+R4
+8vhdl_src/vital2000/timing_b_2000.vhd
+Fvhdl_src/vital2000/timing_b_2000.vhd
+l0
+L49
+VKEim8d[eJ5dE^:mEG0P3S0
+!s100 KEim8d[eJ5dE^:mEG0P3S0
+R9
+R10
+!s90 -debug|-suppress|12110|-93|-work|ieee|-novital|-dirpath|$MODEL_TECH/..|vhdl_src/vital2000/timing_b_2000.vhd|
+!s107 vhdl_src/vital2000/timing_b_2000.vhd|
+!i113 1
+R98
+R14
+m255
+K4
+z2
+!s8c locked
+!s95 MTI
+cModel Technology Builtin Library
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+d/u/qa/buildsites/10.7p/builds/linux/modeltech
+Penv
+32
+b1
+Z0 !s110 1534563791
+!i10b 1
+Z1 OL;C;10.7c;67
+b1
+Z2 OP;C;10.7c;67
+b1
+Z3 w1534562862
+Z4 d$MODEL_TECH/..
+Z5 8vhdl_src/std/env.vhd
+Z6 Fvhdl_src/std/env.vhd
+l0
+L1
+Vd?`1ck@NdeD@H3RZG7FgZ2
+!s100 d?`1ck@NdeD@H3RZG7FgZ2
+Z7 OE;C;10.7c;67
+b1
+Z8 !s108 1534563790.000000
+Z9 !s90 -debug|-suppress|12110|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/env.vhd|
+Z10 !s107 vhdl_src/std/env.vhd|
+!i113 1
+Z11 o-suppress 12110 -debug -work std -dirpath {$MODEL_TECH/..}
+Z12 tExplicit 1 CvgOpt 0
+Bbody
+DPx4 work 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+32
+R0
+!i10b 1
+R1
+R2
+l0
+L15
+VGO=IeNa]6JLe2BRN4G<kA2
+!s100 GO=IeNa]6JLe2BRN4G<kA2
+R7
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Pstandard
+33
+!s110 1534563790
+!i10b 1
+R1
+R2
+R3
+R4
+8vhdl_src/std/standard.vhd
+Fvhdl_src/std/standard.vhd
+l0
+L8
+VofRa6alAEoSE^5WcJ^O]C2
+!s100 ofRa6alAEoSE^5WcJ^O]C2
+R7
+R8
+!s90 -debug|-suppress|12110|-s|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/standard.vhd|
+!s107 vhdl_src/std/standard.vhd|
+!i113 1
+o-suppress 12110 -debug -s -2008 -work std -dirpath {$MODEL_TECH/..}
+R12
+Ptextio
+33
+b1
+R0
+!i10b 1
+R1
+b1
+R2
+b1
+Z13 w1533842604
+R4
+Z14 8vhdl_src/std/textio.vhd
+Z15 Fvhdl_src/std/textio.vhd
+l0
+L1
+VzE1`LPoLg^DX3Oz^4Fj1K3
+!s100 zE1`LPoLg^DX3Oz^4Fj1K3
+R7
+b1
+Z16 !s108 1534563791.000000
+Z17 !s90 -debug|-suppress|12110|-2008|-work|std|-dirpath|$MODEL_TECH/..|vhdl_src/std/textio.vhd|
+Z18 !s107 vhdl_src/std/textio.vhd|
+!i113 1
+Z19 o-suppress 12110 -debug -2008 -work std -dirpath {$MODEL_TECH/..}
+R12
+Bbody
+DPx4 work 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+33
+R0
+!i10b 1
+R1
+R2
+l0
+L186
+VOBFf4Pj<FG4ZXfzD:k]VN1
+!s100 OBFf4Pj<FG4ZXfzD:k]VN1
+R7
+R16
+R17
+R18
+!i113 1
+R19
+R12
