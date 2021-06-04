@@ -8,7 +8,7 @@ use work.myTypes.all;
 
 entity dlx_cu is
   generic (
-    MICROCODE_MEM_SIZE :     integer := 10;  -- Microcode Memory Size
+    MICROCODE_MEM_SIZE :     integer := 44;  -- Microcode Memory Size
     FUNC_SIZE          :     integer := 11;  -- Func Field Size for R-Type Ops
     OP_CODE_SIZE       :     integer := 6;  -- Op Code Size
     -- ALU_OPC_SIZE       :     integer := 6;  -- ALU Op Code Word Size
@@ -52,7 +52,7 @@ end dlx_cu;
 architecture dlx_cu_hw of dlx_cu is
   type mem_array is array (integer range 0 to MICROCODE_MEM_SIZE - 1) of std_logic_vector(CW_SIZE - 1 downto 0);
   signal cw_mem : mem_array := ("111100010000111", -- R type: IS IT CORRECT?
-                                "000000000000000",
+                                "000000000000000", 
                                 "111011111001100", -- J (0X02) instruction encoding corresponds to the address to this ROM
                                 "000000000000000", -- JAL to be filled
                                 "000000000000000", -- BEQZ to be filled
@@ -60,8 +60,41 @@ architecture dlx_cu_hw of dlx_cu is
                                 "000000000000000", -- 
                                 "000000000000000",
                                 "000000000000000", -- ADD i (0X08): FILL IT!!!
-                                "000000000000000");-- to be completed (enlarged and filled)
-                                
+                                "000000000000000",
+                                "000000000000000", --SUBI (10)
+                                "000000000000000",
+                                "000000000000000", --ANDI (12)
+                                "000000000000000", --ORI (13)
+                                "000000000000000", --xori (14)
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000", --SLLI (20)
+                                "000000000000000", --nop (21)
+                                "000000000000000", --SRLI (22)
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",--SNEI (25)
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000", --SLEI (28)
+                                "000000000000000", --SGEI (29)
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000", --LW (35)
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000",
+                                "000000000000000")--SW (43);-- to be completed (enlarged and filled)                             
                                 
   signal IR_opcode : std_logic_vector(OP_CODE_SIZE -1 downto 0);  -- OpCode part of IR
   signal IR_func : std_logic_vector(FUNC_SIZE downto 0);   -- Func part of IR when Rtype
@@ -115,7 +148,6 @@ begin  -- dlx_cu_rtl
   WB_MUX_SEL <= cw5(CW_SIZE - 14);
   RF_WE      <= cw5(CW_SIZE - 15);
 
-
   -- process to pipeline control words
   CW_PIPE: process (Clk, Rst)
   begin  -- process Clk
@@ -166,8 +198,8 @@ begin  -- dlx_cu_rtl
 				-- to be continued and filled with all the other instructions  
 				when others => aluOpcode_i <= NOP;
 			end case;
-		when 2 => aluOpcode_i <= J; -- j
-		when 3 => aluOpcode_i <= JAL; -- jal
+		when 2 => aluOpcode_i <= NOP; -- j
+		when 3 => aluOpcode_i <= NOP; -- jal
 		when 4 => aluOpcode_i <= BEQZ; --beqz
 		when 5 => aluOpcode_i <= BNEZ; --BNEZ
 		when 8 => aluOpcode_i <= ADDS; -- addi
