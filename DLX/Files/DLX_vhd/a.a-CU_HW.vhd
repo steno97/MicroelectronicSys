@@ -155,12 +155,34 @@ begin  -- dlx_cu_rtl
 			case conv_integer(unsigned(IR_func)) is
 				when 4 => aluOpcode_i <= LLS; -- sll according to instruction set coding
 				when 6 => aluOpcode_i <= LRS; -- srl
+				when 32 => aluOpcode_i <= ADD; -- ADD
+				when 34 => aluOpcode_i <= SUB; -- SUB
+				when 36 => aluOpcode_i <= ANDR; -- AND
+				when 37 => aluOpcode_i <= ORR; -- OR
+				when 38 => aluOpcode_i <= XORR; -- XOR
+				when 41 => aluOpcode_i <= SNE; -- SNE
+				when 44 => aluOpcode_i <= SLE; -- SLE
+				when 45 => aluOpcode_i <= SGE; -- SGE
 				-- to be continued and filled with all the other instructions  
 				when others => aluOpcode_i <= NOP;
 			end case;
-		when 2 => aluOpcode_i <= NOP; -- j
-		when 3 => aluOpcode_i <= NOP; -- jal
+		when 2 => aluOpcode_i <= J; -- j
+		when 3 => aluOpcode_i <= JAL; -- jal
+		when 4 => aluOpcode_i <= BEQZ; --beqz
+		when 5 => aluOpcode_i <= BNEZ; --BNEZ
 		when 8 => aluOpcode_i <= ADDS; -- addi
+		when 10 => aluOpcode_i <= SUBI; --SUBI
+		when 12 => aluOpcode_i <= ANDI; --ANDI
+		when 13 => aluOpcode_i <= ORI; --ORI
+		when 14 => aluOpcode_i <= XORI; --XORI
+		when 20 => aluOpcode_i <= SLLI; --SLLI
+		when 21 => aluOpcode_i <= NOP; --NOP
+		when 22 => aluOpcode_i <= SRLI; --SRLI
+		when 25 => aluOpcode_i <= SNEI; --SNEI
+		when 28 => aluOpcode_i <= SLEI; --SLEI
+		when 29 => aluOpcode_i <= SGEI; --SGEI
+		when 35 => aluOpcode_i <= LW; --LW
+		when 43 => aluOpcode_i <= SW; --SW
 		-- to be continued and filled with other cases
 		when others => aluOpcode_i <= NOP;
 	 end case;
